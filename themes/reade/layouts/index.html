@@ -28,10 +28,10 @@
       </div>
       <div class="centre">
         <img class="box width_330px" src="images/twd/logo_512_non_transparent.png" />
-        <div class="links__bottom homepage__links__other">
+        <!-- <div class="links__bottom homepage__links__other">
           <a href="https://thewritersdaily.juliusreade.com">Website</a>
           <a href="https://castbox.fm/ch/2852897">Podcast</a>
-        </div>
+        </div> -->
       </div>
     </div>
 
@@ -49,6 +49,7 @@
           <h1 class="box__archive__title">{{ .Params.Title }}</h1>
           <time>{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
           <p>{{ .Description }}</p>
+          {{ .Params.castboxEmbedUrl }}
         </div>
 
         <div>

@@ -56,19 +56,9 @@
       <div>
         <p>{{ .Description }}</p>
       </div>
-
-
-      {{ if .Params.Links }}
-        <h3>Links</h3>
-        <div class="links">
-          {{ range .Params.Links }}
-            <div>
-              <p></p>{{ .title }}:
-              <a href="{{ .link }}">{{ .link }}</a>
-            </div>
-          {{ end }}
-        </div>
-      {{ end }}
+      <div>
+        {{ .Params.castboxEmbedUrl }}
+      </div>
     </div>
 
 <!--

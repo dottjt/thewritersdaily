@@ -13,3 +13,5 @@ I'm not exactly sure what the podcast is about, although my main intention with 
 I don't particularly care what those feelings are. But being able to feel is incredibly important, and that's what I intend to do.
 
 It's available for download on all major platforms.
+
+Hit me up on the email if you'd like to chat about it: thewritersdailypodcast@gmail.com
