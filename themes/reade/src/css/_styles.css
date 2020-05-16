@@ -130,6 +130,8 @@ body {
   background: black;
   color: white;
   border: 4px solid white;
+  margin-right: 0.2rem;
+  margin-left: 0.2rem;
 }
 
 @media screen and (min-width: 770px) {
@@ -160,8 +162,15 @@ body {
     padding-right: 0rem;
   }
 
+  .text__margin {
+    margin-left: 3rem;
+  }
 
   .category {
     font-size: 1.4rem;
   }
+}
+
+.text__margin {
+  margin-left: 2rem;
 }

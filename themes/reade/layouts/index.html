@@ -14,17 +14,10 @@
     <div style="padding-top: 0rem;" class="section__part">
       <div class="box">
         <h2>The Writer's Daily is a podcast.</h2>
-        <p class="small__text">The Writer's Daily is a podcast.</p>
-        <p class="small__text">It's an anthem for new ideas, discussion, storytelling, writing, inspiration and everything else in-between. <i class="em em-tada" aria-role="presentation" aria-label="PARTY POPPER"></i></p>
-        <p class="small__text">Here you shall find an episode list, as well as some information on how you can listen to the show.</p>
-        <p class="small__text">Let me show you around, stranger.</p>
-
-
-
-        <p class="text">Castbox:</p>
-        <p class="text">Google Play:</p>
-        <p class="text">Spotify:</p>
-        <p class="text">iTunes:</p>
+        <p class="text">It's an anthem for new ideas, discussion, storytelling, writing, inspiration and everything else in-between.</p>
+        <p class="text">I want to inspire people to feel, and that's been my ultimate intention with this podcast from the very beginning.</p>
+        <p class="text">I don't particularly care what those feelings are, but being able to feel is so incredibly important.</p>
+        <p class="text">It's available for download on all major platforms.</p>
 
         <p class="hashtag">#thewritersdaily</p>
       </div>
@@ -38,9 +31,19 @@
     </div>
 
     <div class="section__border__margin"></div>
-    <h1 class="section__title">Episode List. エピソード。</h1>
+    <h1 class="section__title">Links.</h1>
     <div class="section__border__margin section__border__margin--bottom"></div>
 
+    <div class="section__part">
+      <p class="text text__margin">Castbox: <a href="https://castbox.fm/channel/id2852897">https://castbox.fm/channel/id2852897</a></p>
+      <p class="text text__margin">Google Play:</p>
+      <p class="text text__margin">Spotify:</p>
+      <p class="text text__margin">iTunes:</p>
+    </div>
+
+    <div class="section__border__margin"></div>
+    <h1 class="section__title">Episode List.</h1>
+    <div class="section__border__margin section__border__margin--bottom"></div>
 
     {{ range where .Site.Pages.ByDate.Reverse "Section" "episodes" }}
       {{ if eq .Slug "episodes" }} <!-- This effectively removes the folders i.e. /episodes. -->
@@ -55,9 +58,11 @@
         </div>
 
         <div>
-          <p class="category">
-            {{ range .Params.tags }}{{ . }}{{ end }}
-          </p>
+          {{ range .Params.tags }}
+            <span class="category">
+              #{{ . }}
+            </span>
+          {{ end }}
         </div>
       </a>
       {{ end }}

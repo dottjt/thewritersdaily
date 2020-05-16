@@ -25,9 +25,8 @@ const episodeIndexFile = {
 // };
 
 const getFilePath = (episodeData: EpisodeData): string => {
-  const category: string = episodeData.categories[0];
   const slug: string = episodeData.slug;
-  return path.join(__dirname, '..', `/content/episodes/${category}/${slug}.md`);
+  return path.join(__dirname, '..', `/content/episodes/${slug}.md`);
 };
 
 const getFileContents = (episodeData: EpisodeData): string => {
