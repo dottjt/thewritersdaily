@@ -1,0 +1,20 @@
+@import '_tachyons';
+/* @import '_code'; */
+/* @import '_hugo-internal-templates'; */
+@import '_social-icons';
+@import '_styles';
+
+.h1__title__name__container {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 280px;
+  height: 280px;
+}
+
+.h1__title__name {
+  font-size: 7rem;
+  /* font-size: 27rem; */
+  /* font-size: 12rem; */
+}

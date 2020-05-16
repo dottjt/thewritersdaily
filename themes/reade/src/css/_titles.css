@@ -1,0 +1,76 @@
+
+.h1__title__name__container {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 280px;
+  height: 280px;
+}
+
+.h1__title__name {
+  font-size: 7rem;
+  /* font-size: 27rem; */
+  /* font-size: 12rem; */
+}
+
+h2 {
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+.em {
+  position: relative;
+  top: -0.1rem;
+  left: 0.3rem;
+}
+
+.section__title {
+  margin-left: 4rem;
+  width: 100%;
+}
+
+.hashtag {
+  background: 'white';
+  position: relative;
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  transition: border-bottom .1s, color .1s;
+  font-size: 1rem;
+  line-height: 1.6rem;
+  padding: 0.6rem;
+  border: 4px solid rgba(255,46,182,1);
+  box-shadow: -5px 5px 0px 0px #00ffee;
+  color: black!important;;
+  transition: box-shadow .2s;
+
+  cursor: pointer;
+}
+
+.hashtag:hover {
+  color: lighten(rgba(255,46,182,1), 15%);
+  box-shadow: -8px 8px 0px 0px black;
+  border-bottom: 4px solid rgba(255,46,182,1)!important;
+}
+
+p {
+  line-height: 1.6rem;
+}
+
+
+@media screen and (min-width: 770px) {
+  .h1__title__name {
+    font-size: 8em;
+  }
+
+  h2 {
+    font-size: 5rem;
+    line-height: 0.5rem;
+  }
+
+  .section__title {
+    /* margin-bottom: 4rem; */
+    margin-left: 3rem;
+    font-size: 2rem;
+  }
+}
