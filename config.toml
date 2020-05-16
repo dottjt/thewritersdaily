@@ -11,5 +11,5 @@ googleAnalytics = "UA-85083093-2"
 
 [params]
   description = "#YOLO."
-  images = ["images/logo.png"]
+  images = ["images/twd/logo_512_non_transparent.png"]
   title = "The Writer's Daily"

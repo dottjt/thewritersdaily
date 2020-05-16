@@ -1,7 +1,7 @@
 {
-  "slug":"about",
-  "title":"About",
-  "description":"Learn more about The Writer's Daily.",
+  "slug":"contact",
+  "title":"Contact",
+  "description":"Let's chat about my podcast.",
   "date": "2020-05-11",
   "draft": false
 }
