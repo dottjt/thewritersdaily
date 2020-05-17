@@ -4,7 +4,7 @@ const ep3 =
 {
   "episode_number": 3,
   "slug": "ep-3-get-a-fucking-dog-now",
-  "title": "#3 Get a fucking dog, now.",
+  "title": "#3 Get a fucking dog, now",
   "date": "2020-05-12",
   "description": `\
 
@@ -42,7 +42,7 @@ const ep2 =
 {
   "episode_number": 2,
   "slug": "ep-2-quarantine",
-  "title": "#2 Quarantine.",
+  "title": "#2 Quarantine",
   "date": "2020-05-12",
   "description": `\
 
@@ -81,7 +81,7 @@ const ep1 =
 {
   "episode_number": 1,
   "slug": "ep-1-the-beginning",
-  "title": "#1 The Beginning?",
+  "title": "#1 The beginning",
   "date": "2020-05-12",
   "description": `\
 
