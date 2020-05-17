@@ -43,8 +43,6 @@ h2 {
   box-shadow: -5px 5px 0px 0px #00ffee;
   color: black!important;;
   transition: box-shadow .2s;
-
-  cursor: pointer;
 }
 
 .hashtag:hover {
