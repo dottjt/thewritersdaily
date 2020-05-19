@@ -5,6 +5,12 @@ export type Link = {
   link: string;
 };
 
+export type Segment = {
+  title: string;
+  gist: string;
+  notes: string;
+};
+
 export type EpisodeData = {
   episode_number: number;
   slug: string;
@@ -12,6 +18,7 @@ export type EpisodeData = {
   content: string;
   description: string;
   notes: string;
+  segments: Segment[];
   castboxEmbedUrl: string;
   featured_image: string;
   background_image: string;

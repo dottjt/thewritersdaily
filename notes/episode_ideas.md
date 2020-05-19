@@ -2,7 +2,6 @@
 What is the show?
 - It's about ideas, storytelling, discussion, writing, inspiration and everything else in-between.
 
-#1 What is The Writer's Daily? I want it to serve as a internal forum for storytelling, discussion, expression, ambition, inspiration - and I want it to make you feel. I think that's so important. Secondly, it's a marketing platform. I'm writing a novel at the moment, and I realised I need a marketing platform.
 #2 Why Do You Write?
 #3 What's your favourite word, bucko.
 #4 Capture the feeling. (If your writing doesn't capture feeling then is it really writing?)
