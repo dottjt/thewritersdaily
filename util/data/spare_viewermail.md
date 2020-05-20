@@ -5,4 +5,4 @@ Well, unforunately we're not really equiped to deal with international search an
 Barry from Cooper Peedy, South Australia.
 "Hi Julius, I'm drunk as fuck. Can youse get me another beer from the fridge? My bitch wife "
 
-
+"You didn't pronounce my name correctly on the previous show. Can you please apologise."

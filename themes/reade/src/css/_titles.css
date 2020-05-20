@@ -27,6 +27,7 @@ h2 {
 
 .section__title {
   margin-left: 4rem;
+  padding-right: 1rem;
   width: 100%;
 }
 
@@ -70,5 +71,6 @@ p {
     /* margin-bottom: 4rem; */
     margin-left: 3rem;
     font-size: 2rem;
+    padding-right: 0rem;
   }
 }

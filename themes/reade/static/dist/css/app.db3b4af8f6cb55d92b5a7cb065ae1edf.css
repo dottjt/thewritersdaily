@@ -5973,6 +5973,10 @@ body {
   margin-left: 0.2rem;
 }
 
+.text__margin {
+  margin-left: 2rem!important;
+}
+
 @media screen and (min-width: 770px) {
   .main {
     overflow: visible;
@@ -6007,16 +6011,12 @@ body {
   }
 
   .text__margin {
-    margin-left: 3rem;
+    margin-left: 3rem!important;
   }
 
   .category {
     font-size: 1.4rem;
   }
-}
-
-.text__margin {
-  margin-left: 2rem;
 }
 
 /* @import '_code'; */
@@ -6204,6 +6204,7 @@ h2 {
 
 .section__title {
   margin-left: 4rem;
+  padding-right: 1rem;
   width: 100%;
 }
 
@@ -6220,8 +6221,6 @@ h2 {
   box-shadow: -5px 5px 0px 0px #00ffee;
   color: black!important;;
   transition: box-shadow .2s;
-
-  cursor: pointer;
 }
 
 .hashtag:hover {
@@ -6248,5 +6247,6 @@ p {
     /* margin-bottom: 4rem; */
     margin-left: 3rem;
     font-size: 2rem;
+    padding-right: 0rem;
   }
 }

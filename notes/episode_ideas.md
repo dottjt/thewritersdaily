@@ -12,16 +12,11 @@ What is the show?
 
 I wanted it to be like art.
 
-
-#6 Let's talk about food delivery.
-
 I think it's a dumb idea. For starters, it's not sustainable at all. It's an industry that's been completely subsidised by ***some of that sweet VC money***. It's also subsidised by the workers, who get paid nothing.
 
 https://www.wsj.com/articles/america-is-stuck-at-home-but-food-delivery-companies-still-struggle-to-profit-11589374801
 
 So why is it still a thing? Well, because there's demand for jobs that don't pay well. I have a friend, he is an uber delivery driver. He gets paid literally nothing, and
-
-
 
 
 Multiple inspirations.

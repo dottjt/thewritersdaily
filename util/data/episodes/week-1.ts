@@ -29,6 +29,15 @@ Hello, my name is Julius Reade and welcome to The Writer's Daily! \
 `,
   },
   {
+    title: "the_question",
+    gist: "",
+    notes: `\
+What do you want to achieve today?
+You know, what is on your aciheve today list?
+
+    `,
+  },
+  {
     title: "the_topic",
     gist: "What is the writer's daily about?",
     notes: `\
@@ -37,15 +46,6 @@ I also want it to serve as an internal forum for storytelling, discussion, expre
 and everything else inbetween. Largely I want it to make you feel. \n
 
 Secondly, it's a marketing platform. I'm writing a novel at the moment, and I realised I need a marketing platform.
-
-    `,
-  },
-  {
-    title: "the_question",
-    gist: "",
-    notes: `\
-What do you want to achieve today?
-You know, what is on your aciheve today list?
 
     `,
   },
@@ -118,18 +118,18 @@ Improvise.
     `,
   },
   {
-    title: "the_topic",
-    gist: "quarantine",
-    notes: `\
-      Quar
-
-    `,
-  },
-  {
     title: "the_question",
     gist: "",
     notes: `\
 What do you do for your mental health everyday?
+
+    `,
+  },
+  {
+    title: "the_topic",
+    gist: "quarantine",
+    notes: `\
+      Quar
 
     `,
   },
@@ -265,8 +265,8 @@ important to me, that you make my clothes.
 
 export const ep4: EpisodeData =
 {
-  episode_number: 1,
-  slug: "ep-1-",
+  episode_number: 4,
+  slug: "ep-4-food-delivery",
   title: "",
   date: "2020-05-21",
   description: `\
@@ -292,13 +292,17 @@ export const ep4: EpisodeData =
       title: "the_question",
       gist: "",
       notes: `\
-
+"What makes you happy?" \
+Not just happy, but unconditionally happy. \
+Being mentally balanced makes me happy. I know I'm a bit crazy on the show, but I do my meditations. \
       `,
     },
     {
       title: "the_topic",
-      gist: "",
+      gist: "rant",
       notes: `\
+Let's talk about food delivery.
+
 
       `,
     },
@@ -306,6 +310,9 @@ export const ep4: EpisodeData =
       title: "the_viewermail",
       gist: "",
       notes: `\
+Elena from Casa de piedra in argentina.
+
+"What's the deal with beef?"
 
       `,
     },
@@ -342,8 +349,8 @@ export const ep4: EpisodeData =
 
 export const ep5: EpisodeData =
 {
-  episode_number: 1,
-  slug: "ep-1-",
+  episode_number: 5,
+  slug: "ep-5-",
   title: "",
   date: "2020-05-21",
   description: `\
@@ -369,7 +376,7 @@ export const ep5: EpisodeData =
       title: "the_question",
       gist: "",
       notes: `\
-
+What is the most important thing in your life? \
       `,
     },
     {

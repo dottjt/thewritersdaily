@@ -1,11 +1,9 @@
 # Process
 
-
-+ Write up episodes.
-+ Setup
-
-
-
++ Write up episodes and topics throughout the week.
++ When ready, setup booth in room. Connect everything.
++ Record all five shows.
++ Edit all shows into 
 
 
 TO SETUP/DOWNLOAD:
@@ -22,3 +20,4 @@ TO SETUP/DOWNLOAD:
 
 
 I want it to be more like a radio show that is continuous.
+

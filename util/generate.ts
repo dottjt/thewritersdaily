@@ -1,4 +1,4 @@
-import { EpisodeData } from './types/data';
+import { EpisodeData, Segment } from './types/data';
 import path from 'path';
 import fse from 'fs-extra';
 // import fetch from 'node-fetch';
@@ -10,48 +10,61 @@ const episodeIndexFile = {
   "draft": false
 }
 
-// const validateEpisodeUrls = async (episodeData: EpisodeData): Promise<void> => {
-//   const links =
-//     episodeData.links
-//       .concat(episodeData.socials)
-//       .map((obj: any) => obj.link);
+const episodesNotesIndexFile = {
+  "slug":"episodes-notes",
+  "title": "Episodes Notes",
+  "description": "Episode Notes so I can look them up on my phone",
+  "draft": false
+}
 
-//   for (const link of links) {
-//     const response = await fetch(link);
-//     if (response?.status !== 200) {
-//       console.log(`${link} does not seem to be returning a 200.`);
-//     }
-//   }
-// };
-
-const getFilePath = (episodeData: EpisodeData): string => {
+const getFilePath = (episodeData: EpisodeData, type: string): string => {
   const slug: string = episodeData.slug;
-  return path.join(__dirname, '..', `/content/episodes/${slug}.md`);
+  return path.join(__dirname, '..', `/content/${type}/${slug}.md`);
 };
 
-const getFileContents = (episodeData: EpisodeData): string => {
+const getHeaderContents = (episodeData: EpisodeData): string => {
   return JSON.stringify(episodeData);
+};
+
+const getBelowHeaderContents = (episodeData: EpisodeData): string => {
+  let contentString = "";
+  episodeData.segments.forEach((segment: Segment): void => {
+    contentString += `${segment.title}\n`;
+    contentString += `${segment.notes}\n`;
+  });
+
+  return path.join(__dirname, '..', `/content/episodes/${slug}.md`);
 };
 
 export const generateHugoMDFiles = async (episodeDataList: EpisodeData[]): Promise<void> => {
   try {
     fse.removeSync(path.join(__dirname, '..', 'content', 'episodes'));
     console.log('removed /content/episodes folder.');
-
+    fse.removeSync(path.join(__dirname, '..', 'content', 'episodes_notes'));
+    console.log('removed /content/episodes notes folder.');
 
     for (const episodeData of episodeDataList) {
-      // await validateEpisodeUrls(episodeData);
+      fse.outputFileSync(
+        getFilePath(episodeData, "episodes"),
+        `${getHeaderContents(episodeData)}\n${episodeData.content}`
+      );
 
-      const filePath = getFilePath(episodeData);
-      console.log(filePath);
-      const fileContents = getFileContents(episodeData);
-      fse.outputFileSync(filePath, fileContents);
+      fse.outputFileSync(
+        getFilePath(episodeData, "episodes_notes"),
+        `${getHeaderContents(episodeData)}\n${getBelowHeaderContents(episodeData)}`
+      );
     }
 
-    // create episode _index.md
-    const episodeFilePath = path.join(__dirname, '..', 'content/episodes/_index.md');
-    const episodeFileContents = JSON.stringify(episodeIndexFile);
-    fse.outputFileSync(episodeFilePath, episodeFileContents);
+    // create episode + episode_notes _index.md
+    fse.outputFileSync(
+      path.join(__dirname, '..', 'content/episodes/_index.md'),
+      JSON.stringify(episodeIndexFile)
+    );
+
+    fse.outputFileSync(
+      path.join(__dirname, '..', 'content/episodes_notes/_index.md'),
+      JSON.stringify(episodesNotesIndexFile)
+    );
 
     console.log('finished template creation.')
   } catch(error) {
