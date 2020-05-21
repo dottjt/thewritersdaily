@@ -1,4 +1,6 @@
 themes/reade/static/thewritersdaily_podcast.xml
 content/episodes/*
+content/episodes_notes/*
 node_modules
 .env
+
