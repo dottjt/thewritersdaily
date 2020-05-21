@@ -17,8 +17,7 @@ export const ep1: EpisodeData =
 
 `,
   content: `\
-1. The Question: What do you want to achieve today? 2. The Topic:
-
+1. The Question: What do you want to achieve today? 2. The Topic: The very first show 3. The Viewmail: The guy has a foot fetish.
 `,
   notes: `\
 
@@ -29,15 +28,15 @@ segments: [
     title: "the_intro",
     gist: "",
     notes: `\
-Hello, my name is Julius Reade and welcome to The Writer's Daily!
-`,
+
+    `,
   },
   {
     title: "the_question",
     gist: "",
     notes: `\
 What do you want to achieve today?
-`,
+    `,
   },
   {
     title: "the_topic",
@@ -106,8 +105,7 @@ export const ep2: EpisodeData =
 
 `,
   content: `\
-
-
+1. The Question: What do you want to achieve today? 2. The Topic: The very first show 3. The Viewmail: The guy has a foot fetish.
 `,
   notes: `\
 
@@ -118,7 +116,7 @@ segments: [
     title: "the_intro",
     gist: "",
     notes: `\
-Improvise.
+
     `,
   },
   {
@@ -126,6 +124,10 @@ Improvise.
     gist: "",
     notes: `\
 What do you do for your mental health everyday?
+
+- I'm bipolar and balance is the name of my game.
+- I meditate.
+- Cold showers, I lift everyday.
     `,
   },
   {
@@ -210,7 +212,7 @@ export const ep3: EpisodeData =
       title: "the_intro",
       gist: "",
       notes: `\
-Improvise.
+
       `,
     },
     {
@@ -295,71 +297,71 @@ export const ep4: EpisodeData =
   publishDate: "2020-05-28T07:00:00+10:00",
   description: `\
 
-`,
-  content: `\
+  `,
+    content: `\
 
 
-`,
-  notes: `\
+  `,
+    notes: `\
 
 
-`,
+  `,
   segments: [
     {
       title: "the_intro",
       gist: "",
       notes: `\
-Improvise.
+
       `,
     },
     {
       title: "the_question",
       gist: "",
       notes: `\
-What makes you happy?
+  What makes you happy?
 
-- What is happiness?
-- I would say there are two kinds to consider: Conditional and unconditional
-- Being mentally balanced makes me happy
+  - What is happiness?
+  - I would say there are two kinds to consider: Conditional and unconditional
+  - Being mentally balanced makes me happy
       `,
     },
     {
       title: "the_topic",
       gist: "rant",
       notes: `\
-Let's talk about food delivery.
+  Let's talk about food delivery.
 
-- I don't get it. (nothing wrong with it)
-- I think it comes down to lifestyle.
-- Expensive. $10 is expensive. Hell, $5 is expensive.
-- I like a cooked meal.
-- I also don't mind doing chores.
+  - I don't get it. (nothing wrong with it)
+  - I think it comes down to lifestyle.
+  - Expensive. $10 is expensive. Hell, $5 is expensive.
+  - I like a cooked meal.
+  - I also don't mind doing chores.
       `,
     },
     {
       title: "the_viewermail",
       gist: "",
       notes: `\
-Elena from Casa de piedra in argentina.
+  Elena from Casa de piedra in argentina.
 
-"What's the deal with beef?"
+  "What's the deal with beef?"
 
-- Well you know, Beef is a big industry. And uh...
-- (Play cow sound)
-- Woah, take it easy.
-- (Play cow sound)
-- Oh no, I'm being attacked!
+  - Well you know, Beef is a big industry. And uh...
+  - (Play cow sound)
+  - Woah, take it easy.
+  - (Play cow sound)
+  - Oh no, I'm being attacked!
       `,
     },
     {
       title: "the_outro",
       gist: "",
       notes: `\
-- Facebook, Twitter
-- Email: thewritersdailypodcast@gmail.com
-- Comment on our Castbox Channel
-- Send in Viewermail
-- Look after your mental health
+  - Facebook, Twitter
+  - Email: thewritersdailypodcast@gmail.com
+  - Comment on our Castbox Channel
+  - Send in Viewermail
+  - Look after your mental health
       `,
     }
   ],
