@@ -1,7 +1,6 @@
 import { EpisodeData, Segment } from './types/data';
 import path from 'path';
 import fse from 'fs-extra';
-// import fetch from 'node-fetch';
 
 const episodeIndexFile = {
   "slug":"episodes",
@@ -30,24 +29,29 @@ const getBelowHeaderContents = (episodeData: EpisodeData): string => {
   let contentString = "";
   episodeData.segments.forEach((segment: Segment): void => {
     contentString += `${segment.title}\n`;
-    contentString += `${segment.notes}\n`;
+    contentString += `${segment.notes}\n\n`;
   });
 
-  return path.join(__dirname, '..', `/content/episodes/${slug}.md`);
+  return contentString;
 };
 
 export const generateHugoMDFiles = async (episodeDataList: EpisodeData[]): Promise<void> => {
   try {
+    const todayDate = new Date();
+
     fse.removeSync(path.join(__dirname, '..', 'content', 'episodes'));
     console.log('removed /content/episodes folder.');
     fse.removeSync(path.join(__dirname, '..', 'content', 'episodes_notes'));
     console.log('removed /content/episodes notes folder.');
 
     for (const episodeData of episodeDataList) {
-      fse.outputFileSync(
-        getFilePath(episodeData, "episodes"),
-        `${getHeaderContents(episodeData)}\n${episodeData.content}`
-      );
+      const episodePublicDate = new Date(episodeData.publishDate);
+      // if (episodePublicDate < todayDate) {
+        fse.outputFileSync(
+          getFilePath(episodeData, "episodes"),
+          `${getHeaderContents(episodeData)}\n${episodeData.content}`
+        );
+      // }
 
       fse.outputFileSync(
         getFilePath(episodeData, "episodes_notes"),

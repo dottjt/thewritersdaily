@@ -5,7 +5,8 @@ const epTemplate: EpisodeData =
   episode_number: 1,
   slug: "ep-1-",
   title: "",
-  date: "2020-05-21",
+  date: "2020-05-30T07:00:00+10:00",
+  publishDate: "2020-05-30T07:00:00+10:00",
   description: `\
 
 `,
@@ -61,7 +62,7 @@ const epTemplate: EpisodeData =
   castboxEmbedUrl: "",
   featured_image: "NA",
   background_image: "NA",
-  draft: true,
+  draft: false,
   links: [
     {
       title: "CastboxMp3Url",

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:castbox="http://castbox.fm/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     version="2.0">
+    <channel>
+        <atom:link href="https://thewritersdaily.juliusreade.com/thewritersdaily_podcast.xml" type="application/rss+xml" rel="self"/>
+        <copyright>&amp;#169 The Writer&amp;#x27;s Daily</copyright>
+        <link>https://castbox.fm/ch/2852897</link>
+        <language>en</language>
+
+        <title>The Writer&#39;s Daily</title>
+        <description><![CDATA[I want to rip your face off. 
+
+Get your daily writing inspiration from the man himself. A lunatic with a human for a soul. 
+
+Please send your comments and questions to thewritersdailypodcast@gmail.com]]></description>
+        <castbox:uid>926345a8037244f68b343b3082f969f3</castbox:uid>
+        <castbox:pid>2852897</castbox:pid>
+        <castbox:type></castbox:type>
+
+        <itunes:summary><![CDATA[I want to rip your face off. 
+
+Get your daily writing inspiration from the man himself. A lunatic with a human for a soul. 
+
+Please send your comments and questions to thewritersdailypodcast@gmail.com]]></itunes:summary>
+        <itunes:subtitle></itunes:subtitle>
+        <itunes:author>Julius Reade</itunes:author>
+
+        <itunes:owner>
+            <itunes:email>thewritersdailypodcast@gmail.com</itunes:email>
+        </itunes:owner>
+
+        <itunes:image href="https://s3.castbox.fm/83/13/75/0b45004f36908a538cf65f954e.jpg"/>
+        <itunes:keywords>Arts,Comedy,Fiction</itunes:keywords>
+
+        
+        
+            
+        <itunes:category text="Arts"/>
+            
+        
+            
+        <itunes:category text="Comedy"/>
+            
+        
+            
+        <itunes:category text="Fiction"/>
+            
+        
+        
+
+        <itunes:explicit>yes</itunes:explicit>
+
+        
+    </channel>
+</rss>

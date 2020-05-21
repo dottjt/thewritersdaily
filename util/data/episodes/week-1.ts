@@ -7,8 +7,9 @@ export const ep1: EpisodeData =
 {
   episode_number: 1,
   slug: "ep-1-the-beginning",
-  title: "#1 The Beginning",
-  date: "2020-05-12",
+  title: "#1 - The Beginning",
+  date: "2020-05-25T07:00:00+10:00",
+  publishDate: "2020-05-25T07:00:00+10:00",
   description: `\
 
 `,
@@ -67,6 +68,7 @@ Well Julius, usually I charge my clients for this kind of work. But just because
 We have a Facebook and Twitter account. If you'd like to send me a proper message the show, \
 you can send us an email at thewritersdailypodcast@gmail.com or perhaps post a comment on our \
 Castbox channel. \
+Of course, if you have any viewermail you'd like to send to the show, hit me up on the email or our Castbox channel\
 Stay tuned! Stay happy! And as per usual, don't forget to look after your mental health.\
     `,
   }
@@ -96,8 +98,9 @@ export const ep2: EpisodeData =
 {
   episode_number: 2,
   slug: "ep-2-quarantine",
-  title: "#2 Surviving Quarantine",
-  date: "2020-05-12",
+  title: "#2 - Surviving Quarantine",
+  date: "2020-05-26T07:00:00+10:00",
+  publishDate: "2020-05-26T07:00:00+10:00",
   description: `\
 
 `,
@@ -157,7 +160,7 @@ Improve.
   castboxEmbedUrl: "",
   featured_image: "NA",
   background_image: "NA",
-  draft: true,
+  draft: false,
   links: [
     {
       title: "CastboxMp3Url",
@@ -176,8 +179,9 @@ export const ep3: EpisodeData =
 {
   episode_number: 3,
   slug: "ep-3-get-a-fucking-dog-now",
-  title: "#3 Get a fucking dog, now",
-  date: "2020-05-12",
+  title: "#3 - Get a fucking dog, now",
+  date: "2020-05-27T07:00:00+10:00",
+  publishDate: "2020-05-27T07:00:00+10:00",
   description: `\
 
 `,
@@ -247,7 +251,7 @@ important to me, that you make my clothes.
   castboxEmbedUrl: "",
   featured_image: "NA",
   background_image: "NA",
-  draft: true,
+  draft: false,
   links: [
     {
       title: "CastboxMp3Url",
@@ -268,7 +272,8 @@ export const ep4: EpisodeData =
   episode_number: 4,
   slug: "ep-4-food-delivery",
   title: "",
-  date: "2020-05-21",
+  date: "2020-05-28T07:00:00+10:00",
+  publishDate: "2020-05-28T07:00:00+10:00",
   description: `\
 
 `,
@@ -303,6 +308,9 @@ Being mentally balanced makes me happy. I know I'm a bit crazy on the show, but 
       notes: `\
 Let's talk about food delivery.
 
+- I don't get it. I've never done it.
+- Expensive. I like a cooked meal.
+
 
       `,
     },
@@ -314,6 +322,9 @@ Elena from Casa de piedra in argentina.
 
 "What's the deal with beef?"
 
+Obviously Argentina.
+Well you know, Beef is a big industry. Oh no, I'm being attacked!
+(Dolphin/cow sound effect)
       `,
     },
     {
@@ -331,7 +342,7 @@ Elena from Casa de piedra in argentina.
   castboxEmbedUrl: "",
   featured_image: "NA",
   background_image: "NA",
-  draft: true,
+  draft: false,
   links: [
     {
       title: "CastboxMp3Url",
@@ -352,7 +363,8 @@ export const ep5: EpisodeData =
   episode_number: 5,
   slug: "ep-5-",
   title: "",
-  date: "2020-05-21",
+  date: "2020-05-29T07:00:00+10:00",
+  publishDate: "2020-05-29T07:00:00+10:00",
   description: `\
 
 `,
@@ -390,6 +402,9 @@ What is the most important thing in your life? \
       title: "the_viewermail",
       gist: "",
       notes: `\
+Portia from Barcelona Spain
+
+"Hey Julius, huge fan of the daily. I recently discovered that I have stage 4 cancer. What "
 
       `,
     },
@@ -408,7 +423,7 @@ What is the most important thing in your life? \
   castboxEmbedUrl: "",
   featured_image: "NA",
   background_image: "NA",
-  draft: true,
+  draft: false,
   links: [
     {
       title: "CastboxMp3Url",

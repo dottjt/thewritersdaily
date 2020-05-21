@@ -24,6 +24,7 @@ export type EpisodeData = {
   background_image: string;
   draft: boolean;
   date: string;
+  publishDate: string;
   links: Link[];
   socials: Link[];
   tags: string[];

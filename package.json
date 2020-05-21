@@ -7,7 +7,8 @@
   "scripts": {
     "tsc": "tsc",
     "dev": "ts-node-dev --respawn --transpileOnly ./util/index.ts",
-    "prod": "tsc && node ./utilJS/app.js"
+    "prod": "ts-node ./util/index.ts",
+    "//prod": "tsc && node ./utilJS/index.ts"
   },
   "repository": {
     "type": "git",
@@ -21,12 +22,12 @@
   },
   "homepage": "https://github.com/dottjt/juliusv6#readme",
   "dependencies": {
-    "@octokit/rest": "^17.9.0",
     "@types/fs-extra": "^8.1.0",
+    "@types/node-fetch": "^2.5.7",
     "dotenv": "^8.2.0",
     "fs-extra": "^9.0.0",
     "husky": "^4.2.5",
-    "rss-parser": "^3.8.0",
+    "node-fetch": "^2.6.0",
     "ts-node-dev": "^1.0.0-pre.44",
     "typescript": "^3.8.3"
   },
@@ -35,5 +36,8 @@
       "pre-commit": "cd themes/reade/src && npm run production:build && cd ../../.. && git add .",
       "//pre-push": ""
     }
+  },
+  "devDependencies": {
+    "ts-node": "^8.10.1"
   }
 }
