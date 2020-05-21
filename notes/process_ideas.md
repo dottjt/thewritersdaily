@@ -3,19 +3,12 @@
 + Write up episodes and topics throughout the week.
 + Setup booth. Setup Soundboard. Connect everything.
 + Record all five shows.
-+ Edit all shows in Adobe Audacity
++ Edit all shows in Adobe Audacity.
 + Upload all shows to Castbox. Schedule them to be published at 7am Australia time.
-+ Edit the website files to contain relevant copy from Castbox
-
-
-
-Episode 1.
++ Edit the writersdaily website files to contain relevant copy from Castbox.
++ 
 
 https://blog.michaelbrooks.dev/automatically-posting-new-blog-posts-to-your-facebook-and-twitter-pages-from-your-rss-feed/
-
-
-// this is the NFD RSS, will have to find the other one.
-http://rss.castbox.fm/everest/aab82e46f0cd4791b1c8ddc19d5158c3.xml
 
 ## Automated with IFTTT
 
@@ -23,17 +16,14 @@ http://rss.castbox.fm/everest/aab82e46f0cd4791b1c8ddc19d5158c3.xml
 + Push podcast to Facebook Monday - Friday.
 + Push podcast to Twitter Monday - Friday.
 
-TO SETUP/DOWNLOAD:
+## TO SETUP/DOWNLOAD
 
-- Virtual audio cable.
-- Farrago (native mac, but costs money)
+- https://github.com/ExistentialAudio/BlackHole (Blackhole to route all audio through the computer)
+- JuliusJingle to play all the jingles on the show
 - Audio MIDI (mac osx) to create an aggregate device.
   + Create an Audio Input AND Audio Output
 
-- https://github.com/ExistentialAudio/BlackHole
+## OTHER TOOLS:
 
-ACTUAL TOOLS
-
-- Blackhole to route all audio through the computer
-- JuliusJingle to play all the jingles on the show
-
+- Virtual audio cable.
+- Farrago (native mac, but costs money)

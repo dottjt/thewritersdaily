@@ -3,19 +3,14 @@
 
 - The Question.
 
-
-Today's question: How do you feel
-
 - How do you feel today?
-  +
 
 - Today's Topic
   + Talk about what I wanted to for the day.
 
-
 - Good Advice:
 
-+ 
++
 
 - Quote
 

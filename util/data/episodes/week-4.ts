@@ -234,8 +234,8 @@ export const ep18: EpisodeData =
 export const ep19: EpisodeData =
 {
   episode_number: 19,
-  slug: "ep-19-",
-  title: "",
+  slug: "ep-19-estrangement",
+  title: "#19 - Estrangement",
   date: "2020-05-30T07:00:00+10:00",
   publishDate: "2020-05-30T07:00:00+10:00",
   description: `\
@@ -268,6 +268,7 @@ export const ep19: EpisodeData =
       title: "the_topic",
       gist: "",
       notes: `\
+- What is Estrangement?
 
       `,
     },

@@ -3,8 +3,8 @@ import { EpisodeData } from '../../types/data';
 export const ep21: EpisodeData =
 {
   episode_number: 21,
-  slug: "ep-21-",
-  title: "",
+  slug: "ep-21-university",
+  title: "#21 - University",
   date: "2020-05-30T07:00:00+10:00",
   publishDate: "2020-05-30T07:00:00+10:00",
   description: `\
@@ -37,7 +37,11 @@ export const ep21: EpisodeData =
       title: "the_topic",
       gist: "",
       notes: `\
+Let's talk about university.
 
+- I hated university with a passion.
+- Describe university schedule
+- To me it was a useless piece of paper that I needed.
       `,
     },
     {

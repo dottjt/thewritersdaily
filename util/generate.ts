@@ -22,13 +22,14 @@ const getFilePath = (episodeData: EpisodeData, type: string): string => {
 };
 
 const getHeaderContents = (episodeData: EpisodeData): string => {
+
   return JSON.stringify(episodeData);
 };
 
 const getBelowHeaderContents = (episodeData: EpisodeData): string => {
-  let contentString = "";
+  let contentString = "\n";
   episodeData.segments.forEach((segment: Segment): void => {
-    contentString += `${segment.title}\n`;
+    contentString += `## ${segment.title}\n\n`;
     contentString += `${segment.notes}\n`;
   });
 

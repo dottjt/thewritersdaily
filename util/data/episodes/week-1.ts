@@ -1,20 +1,23 @@
 import { EpisodeData } from '../../types/data';
 
-// ep1 the beginning
-// ep2 surviving quarantine
+// ep1 beginning
+// ep2 quarantine
+// ep3
+// ep4 quarantine
+// ep5 quarantine
 
 export const ep1: EpisodeData =
 {
   episode_number: 1,
-  slug: "ep-1-the-beginning",
-  title: "#1 - The Beginning",
+  slug: "ep-1-beginning",
+  title: "#1 - Beginning",
   date: "2020-05-25T07:00:00+10:00",
   publishDate: "2020-05-25T07:00:00+10:00",
   description: `\
 
 `,
   content: `\
-
+1. The Question: What do you want to achieve today? 2. The Topic:
 
 `,
   notes: `\
@@ -26,24 +29,25 @@ segments: [
     title: "the_intro",
     gist: "",
     notes: `\
-Hello, my name is Julius Reade and welcome to The Writer's Daily! \
+Hello, my name is Julius Reade and welcome to The Writer's Daily!
 `,
   },
   {
     title: "the_question",
     gist: "",
     notes: `\
-What do you want to achieve today? \
-You know, what is on your aciheve today list?
+What do you want to achieve today?
 `,
   },
   {
     title: "the_topic",
     gist: "What is the writer's daily about?",
     notes: `\
-- Want to have fun \
-- Comedy/Motivational Podcast \
-- I want it to make you feel \
+What is this show about?
+
+- Want to have fun
+- Comedy/Motivational Podcast
+- I want it to make you feel
 - Marketing platform for my novel
     `,
   },
@@ -51,22 +55,22 @@ You know, what is on your aciheve today list?
     title: "the_viewermail",
     gist: "",
     notes: `\
-Julius Reade from Melbourne, Australia. \
+Julius Reade from Melbourne, Australia.
 
-"Hey Julius, loving the first show. Personal request, but I have a bit of a foot fetish. Would you be willing to suck my foot?" \
+"Hey Julius, loving the first show. Personal request, but I have a bit of a foot fetish. Would you be willing to suck my foot?"
 
-Well Julius, usually I charge my clients for this kind of work. But just because I love you. Let's get that sock off. \
+Well Julius, usually I charge my clients for this kind of work. But just because I love you. Let's get that sock off.
     `,
   },
   {
     title: "the_outro",
     gist: "",
     notes: `\
-We have a Facebook and Twitter account. If you'd like to send me a proper message the show, \
-you can send us an email at thewritersdailypodcast@gmail.com or perhaps post a comment on our \
-Castbox channel. \
-Of course, if you have any viewermail you'd like to send to the show, hit me up on the email or our Castbox channel \
-Stay tuned! Stay happy! And as per usual, don't forget to look after your mental health.\
+- Facebook, Twitter
+- Email: thewritersdailypodcast@gmail.com
+- Comment on our Castbox Channel
+- Send in Viewermail
+- Look after your mental health
     `,
   }
 ],
@@ -95,7 +99,7 @@ export const ep2: EpisodeData =
 {
   episode_number: 2,
   slug: "ep-2-quarantine",
-  title: "#2 - Surviving Quarantine",
+  title: "#2 - Quarantine",
   date: "2020-05-26T07:00:00+10:00",
   publishDate: "2020-05-26T07:00:00+10:00",
   description: `\
@@ -121,35 +125,44 @@ Improvise.
     title: "the_question",
     gist: "",
     notes: `\
-What do you do for your mental health everyday? \
+What do you do for your mental health everyday?
     `,
   },
   {
     title: "the_topic",
     gist: "quarantine",
     notes: `\
-- Daily Routine
+How are you getting through quarantine?
+
+- Loving it. Absolutely Loving it.
+- Working from home benefits (saving on commute etc.)
+- I'm very routine focused.
     `,
   },
   {
     title: "the_viewermail",
     gist: "Drunk fuck",
     notes: `\
-Timmy from 	Kansas City, Misouri. \
-"Hey Julius, loving the crop top. My question to you today is, dad keeps hitting me. \
-I think it's cause he's always drunk. How can I get him to stop beating me?" \
-- I'm not a miracle worker \
-- Best advice is to kill yourself \
-- There's so many different ways to end your life \
-- It's worked for so many different people \
+Timmy from Kansas City, Misouri.
+
+"Hey Julius, loving the crop top. My question to you today is, my dad is an alcoholic keeps beating me. How can I get him to stop beating me?"
+
+- I'm not a miracle worker
+- Best advice is to kill yourself
+- There's so many different ways to end your life
+- It's worked for so many different people
     `,
   },
   {
     title: "the_outro",
     gist: "",
     notes: `\
-Improvise.
-    `,
+- Facebook, Twitter
+- Email: thewritersdailypodcast@gmail.com
+- Comment on our Castbox Channel
+- Send in Viewermail
+- Look after your mental healthImprovise.
+    `
   }
 ],
   tags: [
@@ -177,8 +190,8 @@ Improvise.
 export const ep3: EpisodeData =
 {
   episode_number: 3,
-  slug: "ep-3-get-a-fucking-dog-now",
-  title: "#3 - Get a fucking dog, now",
+  slug: "ep-3-greyhound",
+  title: "#3 - Greyhound",
   date: "2020-05-27T07:00:00+10:00",
   publishDate: "2020-05-27T07:00:00+10:00",
   description: `\
@@ -204,20 +217,23 @@ Improvise.
       title: "the_question",
       gist: "What excites you?",
       notes: `\
-
 What excites you?
-(pushing myself excites me)
-(talk about routine)
-(talk about the show)
+
+- Maybe nothing excites you
+- Pushing myself excites me
+- Opportunity excites me
       `,
     },
     {
       title: "the_topic",
-      gist: "pets/dogs",
+      gist: "greyhound",
       notes: `\
-Talk about pets.
-Talk about adopting a greyhound and how it's impacted you positively.
+Talk about how I adopted a Greyhound.
 
+- It's 100% worth it.
+- It's a commitment.
+- Improved my mental health
+- Prepared me for having children
       `,
     },
     {
@@ -226,22 +242,25 @@ Talk about adopting a greyhound and how it's impacted you positively.
       notes: `\
 Ying Ying from the People's Republic of China.
 
-"Julius, I absolutely love the show. I think it's fantastic! \
-I'm currently looking to live in Australia, but unfortunately \
-it's almost impossible to get a visa. Would you be willing to marry me \
+"Julius, I absolutely love the show. I think it's fantastic!
+I'm currently looking to live in Australia, but unfortunately
+it's almost impossible to get a visa. Would you be willing to marry me
 so I can stop working in a factory and start collecting centrelink."
 
-Well Erin, I mean. Who's going to make my clothes? What you want me to be nude? \
-Erin, you're the reason I have clothes. Please don't throw that away. It's \
-important to me, that you make my clothes.
+- Who will make my clothes!?
+- Just. Do. It.
+- You are so incredibly selfish.
       `,
     },
     {
       title: "the_outro",
       gist: "",
       notes: `\
-
-
+- Facebook, Twitter
+- Email: thewritersdailypodcast@gmail.com
+- Comment on our Castbox Channel
+- Send in Viewermail
+- Look after your mental health
       `,
     }
   ],
@@ -271,7 +290,7 @@ export const ep4: EpisodeData =
 {
   episode_number: 4,
   slug: "ep-4-food-delivery",
-  title: "",
+  title: "#4 - Food Delivery",
   date: "2020-05-28T07:00:00+10:00",
   publishDate: "2020-05-28T07:00:00+10:00",
   description: `\
@@ -290,16 +309,18 @@ export const ep4: EpisodeData =
       title: "the_intro",
       gist: "",
       notes: `\
-
+Improvise.
       `,
     },
     {
       title: "the_question",
       gist: "",
       notes: `\
-"What makes you happy?" \
-Not just happy, but unconditionally happy. \
-Being mentally balanced makes me happy. I know I'm a bit crazy on the show, but I do my meditations. \
+What makes you happy?
+
+- What is happiness?
+- I would say there are two kinds to consider: Conditional and unconditional
+- Being mentally balanced makes me happy
       `,
     },
     {
@@ -308,10 +329,11 @@ Being mentally balanced makes me happy. I know I'm a bit crazy on the show, but 
       notes: `\
 Let's talk about food delivery.
 
-- I don't get it. I've never done it.
-- Expensive. I like a cooked meal.
-
-
+- I don't get it. (nothing wrong with it)
+- I think it comes down to lifestyle.
+- Expensive. $10 is expensive. Hell, $5 is expensive.
+- I like a cooked meal.
+- I also don't mind doing chores.
       `,
     },
     {
@@ -322,17 +344,22 @@ Elena from Casa de piedra in argentina.
 
 "What's the deal with beef?"
 
-Obviously Argentina.
-Well you know, Beef is a big industry. Oh no, I'm being attacked!
-(Dolphin/cow sound effect)
+- Well you know, Beef is a big industry. And uh...
+- (Play cow sound)
+- Woah, take it easy.
+- (Play cow sound)
+- Oh no, I'm being attacked!
       `,
     },
     {
       title: "the_outro",
       gist: "",
       notes: `\
-
-
+- Facebook, Twitter
+- Email: thewritersdailypodcast@gmail.com
+- Comment on our Castbox Channel
+- Send in Viewermail
+- Look after your mental health
       `,
     }
   ],
@@ -361,8 +388,8 @@ Well you know, Beef is a big industry. Oh no, I'm being attacked!
 export const ep5: EpisodeData =
 {
   episode_number: 5,
-  slug: "ep-5-",
-  title: "",
+  slug: "ep-5-work",
+  title: "#5 - Work",
   date: "2020-05-29T07:00:00+10:00",
   publishDate: "2020-05-29T07:00:00+10:00",
   description: `\
@@ -388,14 +415,23 @@ export const ep5: EpisodeData =
       title: "the_question",
       gist: "",
       notes: `\
-What is the most important thing in your life? \
+What is the most important thing in your life?
+
+- It can maybe be right now, or in the future
+- Maybe you can't answer this question
+- For me it's my future children
       `,
     },
     {
       title: "the_topic",
       gist: "",
       notes: `\
+Let's talk about work.
 
+- I'm a professional programmer.
+- Work progressively gets easier throughout your career.
+- You Startout doing shit jobs.
+- What are your thoughts about work?
       `,
     },
     {
@@ -406,14 +442,22 @@ Portia from Barcelona Spain
 
 "Hey Julius, huge fan of the daily. I recently discovered that I have stage 4 cancer. What "
 
+- The best thing you can do is sexualise it.
+- It'll help pay for chemo, it'll boost your confidence
+- Nothing sexier than a chick pole dancing off her own dialysis machine.
+- I would pay top dollar. FACT.
+- Good for the economy and good for my hard on.
       `,
     },
     {
       title: "the_outro",
       gist: "",
       notes: `\
-
-
+- Facebook, Twitter
+- Email: thewritersdailypodcast@gmail.com
+- Comment on our Castbox Channel
+- Send in Viewermail
+- Look after your mental health
       `,
     }
   ],

@@ -234,8 +234,8 @@ export const ep8: EpisodeData =
 export const ep9: EpisodeData =
 {
   episode_number: 9,
-  slug: "ep-9-",
-  title: "",
+  slug: "ep-9-breakfast",
+  title: "#9 - Breakfast",
   date: "2020-05-30T07:00:00+10:00",
   publishDate: "2020-05-30T07:00:00+10:00",
   description: `\
@@ -268,7 +268,8 @@ export const ep9: EpisodeData =
       title: "the_topic",
       gist: "",
       notes: `\
-
+- I don't get breakfast. \
+- What point does breakfast have? \
       `,
     },
     {
@@ -311,8 +312,8 @@ export const ep9: EpisodeData =
 export const ep10: EpisodeData =
 {
   episode_number: 10,
-  slug: "ep-10-",
-  title: "",
+  slug: "ep-10-gold-stars",
+  title: "#10 - Gold Stars",
   date: "2020-05-30T07:00:00+10:00",
   publishDate: "2020-05-30T07:00:00+10:00",
   description: `\
@@ -338,14 +339,14 @@ export const ep10: EpisodeData =
       title: "the_question",
       gist: "",
       notes: `\
-
+What are you worth?\
       `,
     },
     {
       title: "the_topic",
       gist: "",
       notes: `\
-
+You remember when you were a kid and you were given those gold stars?\
       `,
     },
     {
