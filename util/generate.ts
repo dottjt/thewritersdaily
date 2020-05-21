@@ -29,7 +29,7 @@ const getBelowHeaderContents = (episodeData: EpisodeData): string => {
   let contentString = "";
   episodeData.segments.forEach((segment: Segment): void => {
     contentString += `${segment.title}\n`;
-    contentString += `${segment.notes}\n\n`;
+    contentString += `${segment.notes}\n`;
   });
 
   return contentString;

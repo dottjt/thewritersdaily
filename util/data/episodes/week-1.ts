@@ -33,32 +33,29 @@ Hello, my name is Julius Reade and welcome to The Writer's Daily! \
     title: "the_question",
     gist: "",
     notes: `\
-What do you want to achieve today?
+What do you want to achieve today? \
 You know, what is on your aciheve today list?
-
-    `,
+`,
   },
   {
     title: "the_topic",
     gist: "What is the writer's daily about?",
     notes: `\
-It's largely a comedy podcast, that I think it secretly a motivational podcast. I want it to be silly. \
-I also want it to serve as an internal forum for storytelling, discussion, expression, ambition, inspiration \
-and everything else inbetween. Largely I want it to make you feel. \n
-
-Secondly, it's a marketing platform. I'm writing a novel at the moment, and I realised I need a marketing platform.
-
+- Want to have fun \
+- Comedy/Motivational Podcast \
+- I want it to make you feel \
+- Marketing platform for my novel
     `,
   },
   {
     title: "the_viewermail",
     gist: "",
     notes: `\
-Julius Reade from Melbourne, Australia.
+Julius Reade from Melbourne, Australia. \
 
-"Hey Julius, loving the first show. Personal request, but I have a bit of a foot fetish. Would you be willing to suck my foot?"
+"Hey Julius, loving the first show. Personal request, but I have a bit of a foot fetish. Would you be willing to suck my foot?" \
 
-Well Julius, usually I charge my clients for this kind of work. But just because I love you. Let's get that sock off.
+Well Julius, usually I charge my clients for this kind of work. But just because I love you. Let's get that sock off. \
     `,
   },
   {
@@ -68,7 +65,7 @@ Well Julius, usually I charge my clients for this kind of work. But just because
 We have a Facebook and Twitter account. If you'd like to send me a proper message the show, \
 you can send us an email at thewritersdailypodcast@gmail.com or perhaps post a comment on our \
 Castbox channel. \
-Of course, if you have any viewermail you'd like to send to the show, hit me up on the email or our Castbox channel\
+Of course, if you have any viewermail you'd like to send to the show, hit me up on the email or our Castbox channel \
 Stay tuned! Stay happy! And as per usual, don't forget to look after your mental health.\
     `,
   }
@@ -124,32 +121,34 @@ Improvise.
     title: "the_question",
     gist: "",
     notes: `\
-What do you do for your mental health everyday?
-
+What do you do for your mental health everyday? \
     `,
   },
   {
     title: "the_topic",
     gist: "quarantine",
     notes: `\
-      Quar
-
+- Daily Routine
     `,
   },
   {
     title: "the_viewermail",
     gist: "Drunk fuck",
     notes: `\
-    Timmy from 	Kansas City, Misouri.
-    "Hey Julius, loving the crop top. My question to you today is, dad keeps hitting me. I think it's cause he's always drunk. How can I get him to stop beating me?"
-    Geez, Timmy. Fuck. I'm not a miracle worker. I can't unfuck your dad. Best advice I can give, is to kill yourself. Grab a gun. Run into traffic. Do what you have to. You know, it's worked for a countless number of people. Overdosing is really popular these days, so yeah. Stay strong.
+Timmy from 	Kansas City, Misouri. \
+"Hey Julius, loving the crop top. My question to you today is, dad keeps hitting me. \
+I think it's cause he's always drunk. How can I get him to stop beating me?" \
+- I'm not a miracle worker \
+- Best advice is to kill yourself \
+- There's so many different ways to end your life \
+- It's worked for so many different people \
     `,
   },
   {
     title: "the_outro",
     gist: "",
     notes: `\
-Improve.
+Improvise.
     `,
   }
 ],
@@ -205,6 +204,7 @@ Improvise.
       title: "the_question",
       gist: "What excites you?",
       notes: `\
+
 What excites you?
 (pushing myself excites me)
 (talk about routine)

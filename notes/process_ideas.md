@@ -6,10 +6,15 @@
 + Edit all shows in Adobe Audacity
 + Upload all shows to Castbox. Schedule them to be published at 7am Australia time.
 + Edit the website files to contain relevant copy from Castbox
-+
 
 
-// this is the NFD RSS, will have to find the other one. 
+
+Episode 1.
+
+https://blog.michaelbrooks.dev/automatically-posting-new-blog-posts-to-your-facebook-and-twitter-pages-from-your-rss-feed/
+
+
+// this is the NFD RSS, will have to find the other one.
 http://rss.castbox.fm/everest/aab82e46f0cd4791b1c8ddc19d5158c3.xml
 
 ## Automated with IFTTT

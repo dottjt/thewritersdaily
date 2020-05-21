@@ -3,7 +3,7 @@ import { EpisodeData } from '../../types/data';
 export const ep16: EpisodeData =
 {
   episode_number: 16,
-  slug: "ep-16-",
+  slug: "ep-16-depression",
   title: "",
   date: "2020-05-30T07:00:00+10:00",
   publishDate: "2020-05-30T07:00:00+10:00",
