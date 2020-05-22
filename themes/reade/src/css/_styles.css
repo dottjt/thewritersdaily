@@ -138,6 +138,10 @@ body {
   margin-left: 2rem!important;
 }
 
+li {
+  margin-bottom: 0.6rem;
+}
+
 @media screen and (min-width: 770px) {
   .main {
     overflow: visible;

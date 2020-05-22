@@ -3,19 +3,17 @@ import { EpisodeData } from '../../types/data';
 export const ep6: EpisodeData =
 {
   episode_number: 6,
-  slug: "ep-6-africa",
-  title: "#6 - Africa",
+  slug: "ep-6-",
+  title: "#6 -",
   date: "2020-05-30T07:00:00+10:00",
   publishDate: "2020-05-30T07:00:00+10:00",
   description: `\
 
 `,
   content: `\
-
-
+1. The Question: What can't you live without? 2. The Topic:  3. The Viewermail:
 `,
   notes: `\
-
 
 `,
   segments: [
@@ -30,7 +28,10 @@ export const ep6: EpisodeData =
       title: "the_question",
       gist: "",
       notes: `\
+What's one thing that you can't live without?
 
+- For me it's meth.
+- (actual) I can't live without my mental health.
       `,
     },
     {
@@ -51,7 +52,6 @@ export const ep6: EpisodeData =
       title: "the_outro",
       gist: "",
       notes: `\
-
 
       `,
     }
@@ -81,18 +81,16 @@ export const ep7: EpisodeData =
 {
   episode_number: 7,
   slug: "ep-7-",
-  title: "",
+  title: "#7 - ",
   date: "2020-05-30T07:00:00+10:00",
   publishDate: "2020-05-30T07:00:00+10:00",
   description: `\
 
 `,
   content: `\
-
-
+1. The Question:  2. The Topic:  3. The Viewermail:
 `,
   notes: `\
-
 
 `,
   segments: [
@@ -157,19 +155,17 @@ export const ep7: EpisodeData =
 export const ep8: EpisodeData =
 {
   episode_number: 8,
-  slug: "ep-8-",
-  title: "",
+  slug: "ep-8-spotify",
+  title: "#8 - Spotify",
   date: "2020-05-30T07:00:00+10:00",
   publishDate: "2020-05-30T07:00:00+10:00",
   description: `\
 
 `,
   content: `\
-
-
+1. The Question:  2. The Topic:  3. The Viewermail:
 `,
   notes: `\
-
 
 `,
   segments: [
@@ -191,6 +187,11 @@ export const ep8: EpisodeData =
       title: "the_topic",
       gist: "",
       notes: `\
+Today we're talking about Spotify (or music streaming)
+
+- It sort of just happened.
+- I can't remember music before streaming.
+- I do remember being very skeptical about it at first.
 
       `,
     },
@@ -242,11 +243,9 @@ export const ep9: EpisodeData =
 
 `,
   content: `\
-
-
+1. The Question:  2. The Topic:  3. The Viewermail:
 `,
   notes: `\
-
 
 `,
   segments: [
@@ -268,8 +267,12 @@ export const ep9: EpisodeData =
       title: "the_topic",
       gist: "",
       notes: `\
-- I don't get breakfast. \
-- What point does breakfast have? \
+What's the deal with Breakfast?
+
+- I don't eat breakfast
+- I do the whole fasting thing (talk about benefits)
+- The body simply adjusts
+- Probably largely has to do with having more time (a sad facet of modern society)
       `,
     },
     {
@@ -320,11 +323,9 @@ export const ep10: EpisodeData =
 
 `,
   content: `\
-
-
+1. The Question:  2. The Topic:  3. The Viewermail:
 `,
   notes: `\
-
 
 `,
   segments: [

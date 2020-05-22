@@ -84,8 +84,8 @@ Let's talk about university.
 export const ep22: EpisodeData =
 {
   episode_number: 22,
-  slug: "ep-22-",
-  title: "",
+  slug: "ep-22-paleo-diet",
+  title: "#22 - Paleo Diet",
   date: "2020-05-30T07:00:00+10:00",
   publishDate: "2020-05-30T07:00:00+10:00",
   description: `\
@@ -118,7 +118,13 @@ export const ep22: EpisodeData =
       title: "the_topic",
       gist: "",
       notes: `\
+Let's talk about the Paleo Diet
 
+- I did it for a very long time up until recently
+- Talk about working out
+- Would happily recommend it
+- It's mentally hard
+- I would definitely still do it if I weren't in a relationship
       `,
     },
     {

@@ -17,7 +17,7 @@ export const ep1: EpisodeData =
 
 `,
   content: `\
-1. The Question: What do you want to achieve today? 2. The Topic: The very first show 3. The Viewmail: The guy has a foot fetish.
+1. The Question: What do you want to achieve today? 2. The Topic: The very first show 3. The Viewermail: The guy has a foot fetish.
 `,
   notes: `\
 
@@ -105,7 +105,7 @@ export const ep2: EpisodeData =
 
 `,
   content: `\
-1. The Question: What do you want to achieve today? 2. The Topic: The very first show 3. The Viewmail: The guy has a foot fetish.
+1. The Question: What do you do for your mental health everyday? 2. The Topic: Getting through quarantine. 3. The Viewermail: How to get your dad to stop beating you.
 `,
   notes: `\
 
@@ -200,8 +200,7 @@ export const ep3: EpisodeData =
 
 `,
   content: `\
-
-
+1. The Question: What excites you in life? 2. The Topic: Adopting a greyhound. 3. The Viewermail: Ying Ying wants a visa.
 `,
   notes: `\
 
@@ -219,7 +218,7 @@ export const ep3: EpisodeData =
       title: "the_question",
       gist: "What excites you?",
       notes: `\
-What excites you?
+What excites you in life?
 
 - Maybe nothing excites you
 - Pushing myself excites me
@@ -299,8 +298,7 @@ export const ep4: EpisodeData =
 
   `,
     content: `\
-
-
+1. The Question: What makes you happy? 2. The Topic: Let's talk about food delivery services. 3. The Viewermail: What's the deal with beef?
   `,
     notes: `\
 
@@ -318,39 +316,39 @@ export const ep4: EpisodeData =
       title: "the_question",
       gist: "",
       notes: `\
-  What makes you happy?
+What makes you happy?
 
-  - What is happiness?
-  - I would say there are two kinds to consider: Conditional and unconditional
-  - Being mentally balanced makes me happy
+- What is happiness?
+- I would say there are two kinds to consider: Conditional and unconditional
+- Being mentally balanced makes me happy
       `,
     },
     {
       title: "the_topic",
       gist: "rant",
       notes: `\
-  Let's talk about food delivery.
+Let's talk about food delivery.
 
-  - I don't get it. (nothing wrong with it)
-  - I think it comes down to lifestyle.
-  - Expensive. $10 is expensive. Hell, $5 is expensive.
-  - I like a cooked meal.
-  - I also don't mind doing chores.
+- I don't get it. (nothing wrong with it)
+- I think it comes down to lifestyle.
+- Expensive. $10 is expensive. Hell, $5 is expensive.
+- I like a cooked meal.
+- I also don't mind doing chores.
       `,
     },
     {
       title: "the_viewermail",
       gist: "",
       notes: `\
-  Elena from Casa de piedra in argentina.
+Elena from Casa de piedra in argentina.
 
-  "What's the deal with beef?"
+"What's the deal with beef?"
 
-  - Well you know, Beef is a big industry. And uh...
-  - (Play cow sound)
-  - Woah, take it easy.
-  - (Play cow sound)
-  - Oh no, I'm being attacked!
+- Well you know, Beef is a big industry. And uh...
+- (Play cow sound)
+- Woah, take it easy.
+- (Play cow sound)
+- Oh no, I'm being attacked!
       `,
     },
     {
@@ -398,8 +396,7 @@ export const ep5: EpisodeData =
 
 `,
   content: `\
-
-
+1. The Question: What makes you happy? 2. The Topic: Let's talk about food delivery services. 3. The Viewermail: What's the deal with beef?
 `,
   notes: `\
 

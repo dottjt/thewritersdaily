@@ -157,8 +157,8 @@ export const ep12: EpisodeData =
 export const ep13: EpisodeData =
 {
   episode_number: 13,
-  slug: "ep-13-",
-  title: "",
+  slug: "ep-13-Cannabis",
+  title: "#13 - Cannabis",
   date: "2020-05-30T07:00:00+10:00",
   publishDate: "2020-05-30T07:00:00+10:00",
   description: `\
@@ -191,7 +191,7 @@ export const ep13: EpisodeData =
       title: "the_topic",
       gist: "",
       notes: `\
-
+Let's talk cannabis 
       `,
     },
     {
