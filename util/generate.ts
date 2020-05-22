@@ -22,7 +22,10 @@ const getFilePath = (episodeData: EpisodeData, type: string): string => {
 };
 
 const getHeaderContents = (episodeData: EpisodeData, type: string): string => {
-  type === 'epnotes'
+  if (type === 'epnotes') {
+    episodeData.publishDate = '2019-05-25T07:00:00+10:00';
+    return JSON.stringify(episodeData);
+  }
   return JSON.stringify(episodeData);
 };
 
