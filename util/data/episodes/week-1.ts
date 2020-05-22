@@ -36,6 +36,11 @@ segments: [
     gist: "",
     notes: `\
 What do you want to achieve today?
+
+- What's your priority?
+- In my case it's recording the show.
+- And not crying. That's not true. Men don't cry, we just masturbate vigorously until we pass out. 
+-
     `,
   },
   {
