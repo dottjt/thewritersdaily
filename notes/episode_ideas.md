@@ -25,3 +25,4 @@ Emotionally hampered asian girls - Do you remember when you took advantage of yo
 Become the writer - Today it is your imperative that you become the writer. That magnificient ballpen of crust n' desire. Pick up the pen and write.
 
 
+Ugly guys, it's your job to bag a 10

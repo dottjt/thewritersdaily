@@ -6,7 +6,7 @@
 + Edit all shows in Adobe Audacity.
 + Upload all shows to Castbox. Schedule them to be published at 7am Australia time.
 + Edit the writersdaily website files to contain relevant copy from Castbox.
-+ 
++
 
 https://blog.michaelbrooks.dev/automatically-posting-new-blog-posts-to-your-facebook-and-twitter-pages-from-your-rss-feed/
 

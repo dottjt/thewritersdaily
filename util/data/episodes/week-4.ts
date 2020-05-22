@@ -3,8 +3,8 @@ import { EpisodeData } from '../../types/data';
 export const ep16: EpisodeData =
 {
   episode_number: 16,
-  slug: "ep-16-depression",
-  title: "",
+  slug: "ep-16-tekken",
+  title: "#16 - Tekken",
   date: "2020-05-30T07:00:00+10:00",
   publishDate: "2020-05-30T07:00:00+10:00",
   description: `\
@@ -37,7 +37,10 @@ export const ep16: EpisodeData =
       title: "the_topic",
       gist: "",
       notes: `\
+Let's talk about Tekken.
 
+- Tekken is a fighting video game.
+- I was never really much into fighting video games, maybe smash bros. 
       `,
     },
     {
