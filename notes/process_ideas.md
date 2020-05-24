@@ -27,3 +27,7 @@ https://blog.michaelbrooks.dev/automatically-posting-new-blog-posts-to-your-face
 
 - Virtual audio cable.
 - Farrago (native mac, but costs money)
+
+// remember to add `hide_list=1` to the url, as well as change the height to `height="220"`
+
+  castboxEmbedUrl: '<iframe src="https://castbox.fm/app/castbox/player/id2852897/id267116287?v=8.22.9&autoplay=0&hide_list=1" frameborder="0" width="100%" height="220"></iframe>',

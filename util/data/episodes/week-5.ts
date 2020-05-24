@@ -63,7 +63,7 @@ Let's talk about university.
   tags: [
 
   ],
-  castboxEmbedUrl: "",
+  castboxEmbedUrl: '',
   featured_image: "NA",
   background_image: "NA",
   draft: false,
@@ -146,7 +146,7 @@ Let's talk about the Paleo Diet
   tags: [
 
   ],
-  castboxEmbedUrl: "",
+  castboxEmbedUrl: '',
   featured_image: "NA",
   background_image: "NA",
   draft: false,
@@ -223,7 +223,7 @@ export const ep23: EpisodeData =
   tags: [
 
   ],
-  castboxEmbedUrl: "",
+  castboxEmbedUrl: '',
   featured_image: "NA",
   background_image: "NA",
   draft: false,
@@ -300,7 +300,7 @@ export const ep24: EpisodeData =
   tags: [
 
   ],
-  castboxEmbedUrl: "",
+  castboxEmbedUrl: '',
   featured_image: "NA",
   background_image: "NA",
   draft: false,
@@ -377,7 +377,7 @@ export const ep25: EpisodeData =
   tags: [
 
   ],
-  castboxEmbedUrl: "",
+  castboxEmbedUrl: '',
   featured_image: "NA",
   background_image: "NA",
   draft: false,

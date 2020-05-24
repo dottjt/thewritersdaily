@@ -24,9 +24,9 @@ const getFilePath = (episodeData: EpisodeData, type: string): string => {
 const getHeaderContents = (episodeData: EpisodeData, type: string): string => {
   if (type === 'epnotes') {
     episodeData.publishDate = '2019-05-25T07:00:00+10:00';
-    return JSON.stringify(episodeData);
+    return JSON.stringify(episodeData, null, "\t");
   }
-  return JSON.stringify(episodeData);
+  return JSON.stringify(episodeData, null, "\t");
 };
 
 const getBelowHeaderContents = (episodeData: EpisodeData): string => {
@@ -38,6 +38,12 @@ const getBelowHeaderContents = (episodeData: EpisodeData): string => {
 
   return contentString;
 };
+
+const breakUpContent = (content: string): string => {
+  let splitArray = content.split(/\d/).slice(1);
+  splitArray[2] = splitArray[2].replace('Email: thewritersdailypodcast@gmail.com','');
+  return splitArray.map((val: string, index: number) => `${index+1}${val}`).join('\n');
+}
 
 export const generateHugoMDFiles = async (episodeDataList: EpisodeData[]): Promise<void> => {
   try {
@@ -53,7 +59,7 @@ export const generateHugoMDFiles = async (episodeDataList: EpisodeData[]): Promi
       // if (episodePublicDate < todayDate) {
         fse.outputFileSync(
           getFilePath(episodeData, "episodes"),
-          `${getHeaderContents(episodeData, "episodes")}\n${episodeData.content}`
+          `${getHeaderContents(episodeData, "episodes")}\n\n${breakUpContent(episodeData.content)}`
         );
       // }
 

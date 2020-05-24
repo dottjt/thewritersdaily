@@ -59,7 +59,7 @@ const epTemplate: EpisodeData =
   tags: [
 
   ],
-  castboxEmbedUrl: "",
+  castboxEmbedUrl: '',
   featured_image: "NA",
   background_image: "NA",
   draft: false,

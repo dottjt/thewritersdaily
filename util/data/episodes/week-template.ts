@@ -59,7 +59,7 @@ export const ep1: EpisodeData =
   tags: [
 
   ],
-  castboxEmbedUrl: "",
+  castboxEmbedUrl: '',
   featured_image: "NA",
   background_image: "NA",
   draft: false,
@@ -136,7 +136,7 @@ export const ep2: EpisodeData =
   tags: [
 
   ],
-  castboxEmbedUrl: "",
+  castboxEmbedUrl: '',
   featured_image: "NA",
   background_image: "NA",
   draft: false,
@@ -213,7 +213,7 @@ export const ep3: EpisodeData =
   tags: [
 
   ],
-  castboxEmbedUrl: "",
+  castboxEmbedUrl: '',
   featured_image: "NA",
   background_image: "NA",
   draft: false,
@@ -290,7 +290,7 @@ export const ep4: EpisodeData =
   tags: [
 
   ],
-  castboxEmbedUrl: "",
+  castboxEmbedUrl: '',
   featured_image: "NA",
   background_image: "NA",
   draft: false,
@@ -367,7 +367,7 @@ export const ep5: EpisodeData =
   tags: [
 
   ],
-  castboxEmbedUrl: "",
+  castboxEmbedUrl: '',
   featured_image: "NA",
   background_image: "NA",
   draft: false,

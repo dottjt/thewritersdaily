@@ -125,6 +125,10 @@ body {
   margin-bottom: 2rem;
 }
 
+.category__container {
+  margin-bottom: 2rem;
+}
+
 .category {
   font-size: 1rem;
   background: black;
@@ -176,5 +180,9 @@ li {
 
   .category {
     font-size: 1.4rem;
+  }
+
+  .category__container {
+    margin-bottom: 0rem;
   }
 }

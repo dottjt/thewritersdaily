@@ -13,3 +13,6 @@ googleAnalytics = "UA-85083093-2"
   description = "#YOLO."
   images = ["images/twd/logo_512_non_transparent.png"]
   title = "The Writer's Daily"
+
+[markup.goldmark.renderer]
+  unsafe= true

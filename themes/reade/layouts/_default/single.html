@@ -54,10 +54,11 @@
     </div> -->
     <div class="content">
       <div>
-        <p>{{ .Content }}</p>
+        {{ .Params.castboxEmbedUrl | safeHTML }}
       </div>
+
       <div>
-        {{ .Params.castboxEmbedUrl }}
+        <p>{{ .Content }}</p>
       </div>
     </div>
 

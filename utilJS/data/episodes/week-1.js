@@ -41,7 +41,7 @@ exports.ep1 = {
     tags: [
         "writing"
     ],
-    castboxEmbedUrl: "",
+    castboxEmbedUrl: '',
     featured_image: "NA",
     background_image: "NA",
     draft: false,
@@ -96,7 +96,7 @@ exports.ep2 = {
         "coronavirus",
         "covid-19"
     ],
-    castboxEmbedUrl: "",
+    castboxEmbedUrl: '',
     featured_image: "NA",
     background_image: "NA",
     draft: false,
@@ -150,7 +150,7 @@ exports.ep3 = {
     tags: [
         "dog"
     ],
-    castboxEmbedUrl: "",
+    castboxEmbedUrl: '',
     featured_image: "NA",
     background_image: "NA",
     draft: false,
@@ -202,7 +202,7 @@ exports.ep4 = {
         }
     ],
     tags: [],
-    castboxEmbedUrl: "",
+    castboxEmbedUrl: '',
     featured_image: "NA",
     background_image: "NA",
     draft: false,
@@ -254,7 +254,7 @@ exports.ep5 = {
         }
     ],
     tags: [],
-    castboxEmbedUrl: "",
+    castboxEmbedUrl: '',
     featured_image: "NA",
     background_image: "NA",
     draft: false,

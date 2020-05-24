@@ -51,18 +51,22 @@
       {{ else }}
       <a class="box box__archive" href="{{ .Permalink }}">
         <div>
-          <h1 class="box__archive__title">{{ .Params.Title }}</h1>
-          <time>{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
-          <p>{{ .Description }}</p>
-          {{ .Params.castboxEmbedUrl }}
-        </div>
+          <div>
+            <h1 class="box__archive__title">{{ .Params.Title }}</h1>
+            <time>{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
+            <p>{{ .Description }}</p>
+          </div>
 
+          <div class="category__container">
+            {{ range .Params.tags }}
+              <span class="category">
+                #{{ . }}
+              </span>
+            {{ end }}
+          </div>
+        </div>
         <div>
-          {{ range .Params.tags }}
-            <span class="category">
-              #{{ . }}
-            </span>
-          {{ end }}
+          {{ .Params.castboxEmbedUrl | safeHTML }}
         </div>
       </a>
       {{ end }}

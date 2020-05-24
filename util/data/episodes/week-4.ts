@@ -40,7 +40,7 @@ export const ep16: EpisodeData =
 Let's talk about Tekken.
 
 - Tekken is a fighting video game.
-- I was never really much into fighting video games, maybe smash bros. 
+- I was never really much into fighting video games, maybe smash bros.
       `,
     },
     {
@@ -62,7 +62,7 @@ Let's talk about Tekken.
   tags: [
 
   ],
-  castboxEmbedUrl: "",
+  castboxEmbedUrl: '',
   featured_image: "NA",
   background_image: "NA",
   draft: false,
@@ -139,7 +139,7 @@ export const ep17: EpisodeData =
   tags: [
 
   ],
-  castboxEmbedUrl: "",
+  castboxEmbedUrl: '',
   featured_image: "NA",
   background_image: "NA",
   draft: false,
@@ -216,7 +216,7 @@ export const ep18: EpisodeData =
   tags: [
 
   ],
-  castboxEmbedUrl: "",
+  castboxEmbedUrl: '',
   featured_image: "NA",
   background_image: "NA",
   draft: false,
@@ -294,7 +294,7 @@ export const ep19: EpisodeData =
   tags: [
 
   ],
-  castboxEmbedUrl: "",
+  castboxEmbedUrl: '',
   featured_image: "NA",
   background_image: "NA",
   draft: false,
@@ -371,7 +371,7 @@ export const ep20: EpisodeData =
   tags: [
 
   ],
-  castboxEmbedUrl: "",
+  castboxEmbedUrl: '',
   featured_image: "NA",
   background_image: "NA",
   draft: false,

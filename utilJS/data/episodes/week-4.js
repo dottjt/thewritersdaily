@@ -37,7 +37,7 @@ exports.ep16 = {
         }
     ],
     tags: [],
-    castboxEmbedUrl: "",
+    castboxEmbedUrl: '',
     featured_image: "NA",
     background_image: "NA",
     draft: false,
@@ -89,7 +89,7 @@ exports.ep17 = {
         }
     ],
     tags: [],
-    castboxEmbedUrl: "",
+    castboxEmbedUrl: '',
     featured_image: "NA",
     background_image: "NA",
     draft: false,
@@ -141,7 +141,7 @@ exports.ep18 = {
         }
     ],
     tags: [],
-    castboxEmbedUrl: "",
+    castboxEmbedUrl: '',
     featured_image: "NA",
     background_image: "NA",
     draft: false,
@@ -193,7 +193,7 @@ exports.ep19 = {
         }
     ],
     tags: [],
-    castboxEmbedUrl: "",
+    castboxEmbedUrl: '',
     featured_image: "NA",
     background_image: "NA",
     draft: false,
@@ -245,7 +245,7 @@ exports.ep20 = {
         }
     ],
     tags: [],
-    castboxEmbedUrl: "",
+    castboxEmbedUrl: '',
     featured_image: "NA",
     background_image: "NA",
     draft: false,
