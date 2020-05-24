@@ -35,7 +35,7 @@ const modifyRSS = (text: string): string => {
     .replace('&amp;', '')
     .replace('copy; ', '')
     .replace('copy;', '')
-    .replace('&#39;', '\'')
+    .replace(/&#39;/g, '\'')
     .replace(/  <p>/g, '')
     .replace(/<\/p>  /g, '')
     .replace(/<p>/g, '')
