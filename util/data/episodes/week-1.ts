@@ -17,7 +17,7 @@ export const ep1: EpisodeData =
 
 `,
   content: `\
-1. The Question: What do you want to achieve today? 2. The Topic: The very first show 3. The Viewermail: The guy has a foot fetish.
+1. The Question: What do you want to achieve today? 2. The Topic: The very first show 3. The Viewermail: The guy has a foot fetish. Email: thewritersdailypodcast@gmail.com
 `,
   notes: `\
 
@@ -39,7 +39,7 @@ What do you want to achieve today?
 
 - What's your priority?
 - In my case it's recording the show.
-- And not crying. That's not true. Men don't cry, we just masturbate vigorously until we pass out. 
+- And not crying. That's not true. Men don't cry, we just masturbate vigorously until we pass out.
 -
     `,
   },
@@ -110,7 +110,7 @@ export const ep2: EpisodeData =
 
 `,
   content: `\
-1. The Question: What do you do for your mental health everyday? 2. The Topic: Getting through quarantine. 3. The Viewermail: How to get your dad to stop beating you.
+1. The Question: What do you do for your mental health everyday? 2. The Topic: Getting through quarantine. 3. The Viewermail: How to get your dad to stop beating you. Email: thewritersdailypodcast@gmail.com
 `,
   notes: `\
 
@@ -205,7 +205,7 @@ export const ep3: EpisodeData =
 
 `,
   content: `\
-1. The Question: What excites you in life? 2. The Topic: Adopting a greyhound. 3. The Viewermail: Ying Ying wants a visa.
+1. The Question: What excites you in life? 2. The Topic: Adopting a greyhound. 3. The Viewermail: Ying Ying wants a visa. Email: thewritersdailypodcast@gmail.com
 `,
   notes: `\
 
@@ -291,7 +291,6 @@ so I can stop working in a factory and start collecting centrelink."
   ]
 };
 
-
 export const ep4: EpisodeData =
 {
   episode_number: 4,
@@ -303,7 +302,7 @@ export const ep4: EpisodeData =
 
   `,
     content: `\
-1. The Question: What makes you happy? 2. The Topic: Let's talk about food delivery services. 3. The Viewermail: What's the deal with beef?
+1. The Question: What makes you happy? 2. The Topic: Let's talk about food delivery services. 3. The Viewermail: What's the deal with beef? Email: thewritersdailypodcast@gmail.com
   `,
     notes: `\
 
@@ -354,6 +353,8 @@ Elena from Casa de piedra in argentina.
 - Woah, take it easy.
 - (Play cow sound)
 - Oh no, I'm being attacked!
+
+https://www.fesliyanstudios.com/royalty-free-sound-effects-download/cow-264
       `,
     },
     {
@@ -401,7 +402,7 @@ export const ep5: EpisodeData =
 
 `,
   content: `\
-1. The Question: What makes you happy? 2. The Topic: Let's talk about food delivery services. 3. The Viewermail: What's the deal with beef?
+1. The Question: What is the most important thing in your life? 2. The Topic: Let's talk about work. 3. The Viewermail: Stage four cancer. Email: thewritersdailypodcast@gmail.com
 `,
   notes: `\
 
