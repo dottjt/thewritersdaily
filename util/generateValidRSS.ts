@@ -26,6 +26,8 @@ const modifyRSS = (text: string): string => {
   // .replace(/<!\[CDATA\[/g, 'arstarst arst rs t')
   // .replace(/\[/g, '')
 
+  // logo_3000_non_transparent.png
+
   const newText = text
     .replace(/(http|https):\/\/rss(.*)\.xml/g, 'https://thewritersdaily.juliusreade.com/thewritersdaily_podcast.xml')
     .replace(/<guid/g, '<guid isPermaLink="false"')
