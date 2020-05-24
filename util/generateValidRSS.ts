@@ -25,9 +25,10 @@ const modifyRSS = (text: string): string => {
   const newText = text
     .replace(escapeRegExp('http://rss.castbox.fm/everest/3f65d126b7e5499a8957e515501bb203.xml'), 'https://thewritersdaily.juliusreade.com/thewritersdaily_podcast.xml')
     .replace(escapeRegExp('<guid'), '<guid isPermaLink="false"')
-    .replace(escapeRegExp('<author></author>'), '<author>Julius Reade</author>')
+    .replace(escapeRegExp('<author></author>'), '<author>thewritersdailypodcast@gmail.com</author>')
     .replace(escapeRegExp('<author_picture></author_picture>'), '<author_picture>https://thewritersdaily.juliusreade.com/images/twd/logo_512_non_transparent.png</author_picture>')
-    .replace(escapeRegExp('copy;'), '#169')
+    .replace(escapeRegExp('<author_picture></author_picture>'), '')
+    // .replace(escapeRegExp('copy;'), '#169')
     .replace(/<!\[CDATA\[((.|\n)*?)\]\]>/g, '$1' )
     // .replace(/<!\[CDATA\[/g, 'arstarst arst rs t')
     // .replace(/\[/g, '')
