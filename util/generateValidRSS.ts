@@ -21,27 +21,25 @@ const modifyRSS = (text: string): string => {
   //
 
   // [a-zA-Z0-9!@#$&()-`.+,/\"]
+  // .replace(escapeRegExp('<author_picture></author_picture>'), '<author_picture>https://thewritersdaily.juliusreade.com/images/twd/logo_512_non_transparent.png</author_picture>')
+  // .replace(escapeRegExp('copy;'), '#169')
+  // .replace(/<!\[CDATA\[/g, 'arstarst arst rs t')
+  // .replace(/\[/g, '')
 
   const newText = text
     .replace(/(http|https):\/\/rss(.*).xml$/g, 'https://thewritersdaily.juliusreade.com/thewritersdaily_podcast.xml')
-    .replace(escapeRegExp('<guid'), '<guid isPermaLink="false"')
-    .replace(escapeRegExp('<author></author>'), '<author>thewritersdailypodcast@gmail.com (Julius Reade)</author>')
-    .replace(escapeRegExp('<author_picture></author_picture>'), '<author_picture>https://thewritersdaily.juliusreade.com/images/twd/logo_512_non_transparent.png</author_picture>')
-    .replace(escapeRegExp('<author_picture></author_picture>'), '')
-    // .replace(escapeRegExp('copy;'), '#169')
+    .replace(/<guid/g, '<guid isPermaLink="false"')
+    .replace(/<author><\/author>/g, '<author>thewritersdailypodcast@gmail.com (Julius Reade)</author>')
+    .replace(/<author_picture><\/author_picture>/g, '')
     .replace(/<!\[CDATA\[((.|\n)*?)\]\]>/g, '$1' )
-    // .replace(/<!\[CDATA\[/g, 'arstarst arst rs t')
-    // .replace(/\[/g, '')
-    .replace('&amp;', '')
-    .replace('copy; ', '')
-    .replace('copy;', '')
+    .replace(/&amp;/g, '')
+    .replace(/copy; /g, '')
+    .replace(/copy;/g, '')
     .replace(/&#39;/g, '\'')
     .replace(/  <p>/g, '')
     .replace(/<\/p>  /g, '')
     .replace(/<p>/g, '')
     .replace(/<\/p>/g, '')
-    // .replace();
-
 
     console.log(newText);
     console.log(escapeRegExp('[[>'))
