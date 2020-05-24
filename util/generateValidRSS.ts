@@ -27,7 +27,7 @@ const modifyRSS = (text: string): string => {
   // .replace(/\[/g, '')
 
   const newText = text
-    .replace(/(http|https):\/\/rss(.*).xml$/g, 'https://thewritersdaily.juliusreade.com/thewritersdaily_podcast.xml')
+    .replace(/(http|https):\/\/rss(.*)\.xml/g, 'https://thewritersdaily.juliusreade.com/thewritersdaily_podcast.xml')
     .replace(/<guid/g, '<guid isPermaLink="false"')
     .replace(/<author><\/author>/g, '<author>thewritersdailypodcast@gmail.com (Julius Reade)</author>')
     .replace(/<author_picture><\/author_picture>/g, '')
