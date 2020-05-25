@@ -20,17 +20,30 @@ https://blog.michaelbrooks.dev/automatically-posting-new-blog-posts-to-your-face
 
 ## Automation
 
-+ Schedule podcast to publish at
-+ Manually update website + update podcast feed at 7:10am each day.
-+ Post to Facebook ()
-+ Post to Twitter ()
-+ Post to Reddit ()
-+ Create YouTube videos from audio.
++ Schedule podcast to publish at 7:00am (Castbox)
++ Manually update website + update podcast feed at 7:05am each day.
++ Post to Facebook at 7:30am (integromat)
++ Post to Twitter at 7:30am (integromat)
++ Post to Reddit at 7:30am (integromat)
++ Post to Discord at 7:30am (integromat)
+
++ Castbox schedule time automate (clippy)
+
++ Create YouTube videos from audio. (Probably FFmepg)
++ Upload to YouTube.
+
+https://hcti.io/
 
 Automate.io (250 actions per month) 5 bots (only main, like facebook, twitter, discord)
 quickwork.co (Almost nothing, cannot even do RSS Feed) (1,000)
 integromat (Similar to Zapier) (1000) (100mb limit)
 zapier (100 actions) (does everything I want it to)
+
+// maybe gify beforehand. Maybe I need the Giphy API in order to populate each episode with a gif? Sounds like it would be an awesome thing to do.
+Giphy -> Instagram ->
+
+one drive $100 for 1TB, $36 for 100
+Google Drive $124.99 for 2TB, $2.49 for 100GB
 
 
 

@@ -46,7 +46,7 @@ const modifyRSS = (text: string): string => {
       }
       return {
         ...item,
-        link,
+        link
       };
     });
 
