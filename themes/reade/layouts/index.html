@@ -9,6 +9,7 @@
     </div>
   */}}
     {{/*  <div class="box width_330px">
+      <p class="small__text">Welcome to the website!</p>
     </div>  */}}
 
     <div style="padding-top: 0rem;" class="section__part">
@@ -22,28 +23,42 @@
         <p class="hashtag">#thewritersdaily</p>
       </div>
       <div class="centre">
+        <div class="links__bottom homepage__links__other">
+          <a href="https://castbox.fm/channel/id2852897">Castbox</a>
+          <a href="https://podcasts.apple.com/au/podcast/the-writers-daily/id1515047747">iTunes</a>
+                {{/*  <p class="text text__margin">Google Play: </p>
+      <p class="text text__margin">Spotify: </p>  */}}
+
+        </div>
+
         <img class="box width_330px" src="images/twd/logo_512_non_transparent.png" />
-        <!-- <div class="links__bottom homepage__links__other">
-          <a href="https://thewritersdaily.juliusreade.com">Website</a>
-          <a href="https://castbox.fm/ch/2852897">Podcast</a>
-        </div> -->
+
+        <div class="links__bottom__bottom links__bottom homepage__links__other" style="margin-bottom: 2rem;">
+          <a href="https://castbox.fm/channel/id2852897">Castbox</a>
+          <a href="https://podcasts.apple.com/au/podcast/the-writers-daily/id1515047747">iTunes</a>
+        </div>
       </div>
     </div>
 
     <div class="section__border__margin"></div>
-    <h1 class="section__title">Links.</h1>
+      <h1 class="section__title">Listen.</h1>
     <div class="section__border__margin section__border__margin--bottom"></div>
 
-    <div class="section__part">
-      <p class="text text__margin">Castbox: <a href="https://castbox.fm/channel/id2852897">https://castbox.fm/channel/id2852897</a></p>
-      <p class="text text__margin">Google Play:</p>
-      <p class="text text__margin">Spotify:</p>
-      <p class="text text__margin">iTunes:</p>
+    {{/*  <div class="box width_330px">
+      <p class="small__text">It's me. ^^</p>
+    </div>  */}}
+
+    <div class="box" style="width: 100%;">
+      <iframe src="https://castbox.fm/app/castbox/player/id2852897?v=8.22.9&autoplay=0" frameborder="0" width="100%" height="400"></iframe>
     </div>
 
     <div class="section__border__margin"></div>
     <h1 class="section__title">Episode List.</h1>
     <div class="section__border__margin section__border__margin--bottom"></div>
+
+    {{/*  <div class="box width_330px">
+      <p class="small__text">It's me. ^^</p>
+    </div>  */}}
 
     {{ range where .Site.Pages.ByDate.Reverse "Section" "episodes" }}
       {{ if eq .Slug "episodes" }} <!-- This effectively removes the folders i.e. /episodes. -->

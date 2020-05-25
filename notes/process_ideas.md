@@ -34,6 +34,10 @@ https://blog.michaelbrooks.dev/automatically-posting-new-blog-posts-to-your-face
 
 https://hcti.io/
 
+// create new RSS namespace for tags. Just make it up, I guess? tag the website
+https://thewritersdaily.juliusreade.com/thewritersdaily_podcast.xml
+https://stackoverflow.com/questions/644315/can-i-add-my-own-tags-in-a-rss-item
+
 Automate.io (250 actions per month) 5 bots (only main, like facebook, twitter, discord)
 quickwork.co (Almost nothing, cannot even do RSS Feed) (1,000)
 integromat (Similar to Zapier) (1000) (100mb limit)

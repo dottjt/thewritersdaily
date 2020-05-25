@@ -7,12 +7,18 @@
   margin-bottom: 4rem;
 }
 
+
 .links__bottom {
   display: flex;
   justify-content: flex-end;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
+
+.links__bottom__bottom {
+  margin-bottom: 1rem!important;
+}
+
 
 .header__bottom {
   display: flex;
@@ -63,6 +69,8 @@
   align-items: center;
 
   flex-wrap: wrap;
+
+  margin-bottom: 3rem;
 }
 
 .homepage__links__other a {
