@@ -20,6 +20,7 @@ export type EpisodeData = {
   notes: string;
   segments: Segment[];
   castboxEmbedUrl: string;
+  castboxLink: string,
   featured_image: string;
   background_image: string;
   draft: boolean;

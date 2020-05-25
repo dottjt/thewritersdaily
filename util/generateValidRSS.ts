@@ -2,24 +2,14 @@
 import path from 'path';
 import fse from 'fs-extra';
 import fetch from 'node-fetch';
+import { episodeList } from './data/episodes';
+import { create, convert } from 'xmlbuilder2';
 
 function escapeRegExp(text: string) {
   return text.replace(/[-[\]{}()*+?.,\\^$|#\\s]/g, '\\$&');
 }
 
 const modifyRSS = (text: string): string => {
-  // replace the logo with something higher res, not sure if it's necessary.
-  // regex = ~r/https:\/\/s3.castbox.fm(\/*[a-zA-Z0-9])*.png/
-  // # does_match = Regex.match?(regex, "https://s3.castbox.fm/89/8f/d7/ab55544abb81506d8240808921.png") |> IO.inspect
-  // new_xml =
-  //   Regex.replace(
-  //     regex,
-  //     response.body,
-  //     "https://neverfapdeluxe.com/images/logo_podcast.png",
-  //     global: true
-  //   )
-  //
-
   // [a-zA-Z0-9!@#$&()-`.+,/\"]
   // .replace(escapeRegExp('<author_picture></author_picture>'), '<author_picture>https://thewritersdaily.juliusreade.com/images/twd/logo_512_non_transparent.png</author_picture>')
   // .replace(escapeRegExp('copy;'), '#169')
@@ -43,21 +33,40 @@ const modifyRSS = (text: string): string => {
     .replace(/<p>/g, '')
     .replace(/<\/p>/g, '')
 
-    console.log(newText);
-    console.log(escapeRegExp('[[>'))
-  // https://validator.w3.org/feed/
+  let feed = convert(newText, { format: "object" });
+  // console.log(feed.rss.channel.item);
+  // console.log(feed.rss.channel);
 
-  return newText;
+  if (feed.rss.channel.item.length !== undefined) {
+    feed.rss.channel.item = feed.rss.channel.item.reverse().map((item: any, index: number) => {
+      // so this needs to make sure that there's items in here.
+      const link = episodeList[index]?.castboxLink;
+      if (link === undefined) {
+        return undefined;
+      }
+      return {
+        ...item,
+        link,
+      };
+    });
+
+    feed.rss.channel.item = feed.rss.channel.item.filter(Boolean);
+  } else {
+    feed.rss.channel.item = { ...feed.rss.channel.item, link: episodeList[0]?.castboxLink };
+  }
+
+  const xml = convert(feed, { format: "xml" });
+  return xml;
 }
 
 export const generateValidRSS = async (): Promise<void> => {
   try {
-    // const NFD_RSS_URL = "http://rss.castbox.fm/everest/aab82e46f0cd4791b1c8ddc19d5158c3.xml";
+    // const TWD_RSS_URL = "http://rss.castbox.fm/everest/aab82e46f0cd4791b1c8ddc19d5158c3.xml"; // (this is the NFD one.)
     const TWD_RSS_URL = "http://rss.castbox.fm/everest/3f65d126b7e5499a8957e515501bb203.xml";
 
     const response = await fetch(TWD_RSS_URL);
     const text = await response.text();
-    const newText = modifyRSS(text);
+    const newText = await modifyRSS(text);
 
     fse.outputFileSync(
       path.join(__dirname, '..', 'themes', 'reade', 'static', 'thewritersdaily_podcast.xml'),

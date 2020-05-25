@@ -60,6 +60,7 @@ export const ep1: EpisodeData =
 
   ],
   castboxEmbedUrl: '',
+  castboxLink: '',
   featured_image: "NA",
   background_image: "NA",
   draft: false,
@@ -137,6 +138,7 @@ export const ep2: EpisodeData =
 
   ],
   castboxEmbedUrl: '',
+  castboxLink: '',
   featured_image: "NA",
   background_image: "NA",
   draft: false,
@@ -214,6 +216,7 @@ export const ep3: EpisodeData =
 
   ],
   castboxEmbedUrl: '',
+  castboxLink: '',
   featured_image: "NA",
   background_image: "NA",
   draft: false,
@@ -291,6 +294,7 @@ export const ep4: EpisodeData =
 
   ],
   castboxEmbedUrl: '',
+  castboxLink: '',
   featured_image: "NA",
   background_image: "NA",
   draft: false,
@@ -368,6 +372,7 @@ export const ep5: EpisodeData =
 
   ],
   castboxEmbedUrl: '',
+  castboxLink: '',
   featured_image: "NA",
   background_image: "NA",
   draft: false,

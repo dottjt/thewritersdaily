@@ -10,11 +10,30 @@
 
 https://blog.michaelbrooks.dev/automatically-posting-new-blog-posts-to-your-facebook-and-twitter-pages-from-your-rss-feed/
 
-## Automated with IFTTT
+## Can't Automate
 
-+ Manually push website at 7:10am each day.
++ Uploading to
+
+## Automation
+
++ Schedule podcast to publish at 
++ Manually update website + update podcast feed at 7:10am each day.
 + Push podcast to Facebook Monday - Friday.
 + Push podcast to Twitter Monday - Friday.
+
+thewritersdailypodcast@gmail.com
+
+https://thewritersdaily.juliusreade.com/thewritersdaily_podcast.xml
+
+Podcasts iTunes (julius_dott@hotmail.com)
+Spotify (julius.reade@gmail.com)
+podcastaddict (just rss feed)
+podbean (julius.reade@gmail.com - submit)
+stitcher (julius.reade@gmail.com)
+Google Podcasts Manager (julius.reade.com) https://podcastsmanager.google.com/add-feed?hl=en
+TuneIn - Submit (rss)
+
+Pandora won't let me create an account LOL https://amp.pandora.com/registration
 
 ## TO SETUP/DOWNLOAD
 

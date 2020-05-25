@@ -82,6 +82,7 @@ Well Julius, usually I charge my clients for this kind of work. But just because
     "writing"
   ],
   castboxEmbedUrl: '<iframe src="https://castbox.fm/app/castbox/player/id2852897/id267115457?v=8.22.9&autoplay=0&hide_list=1" frameborder="0" width="100%" height="220"></iframe>',
+  castboxLink: 'https://castbox.fm/x/1FkwJ',
   featured_image: "NA",
   background_image: "NA",
   draft: false,
@@ -177,6 +178,7 @@ Timmy from Kansas City, Misouri.
     "covid-19"
   ],
   castboxEmbedUrl: '<iframe src="https://castbox.fm/app/castbox/player/id2852897/id267115677?v=8.22.9&autoplay=0&hide_list=1" frameborder="0" width="100%" height="220"></iframe>',
+  castboxLink: 'https://castbox.fm/x/1FkwO',
   featured_image: "NA",
   background_image: "NA",
   draft: false,
@@ -274,6 +276,7 @@ so I can stop working in a factory and start collecting centrelink."
     "dog"
   ],
   castboxEmbedUrl: '<iframe src="https://castbox.fm/app/castbox/player/id2852897/id267116287?v=8.22.9&autoplay=0&hide_list=1" frameborder="0" width="100%" height="220"></iframe>',
+  castboxLink: 'https://castbox.fm/x/1FkwP',
   featured_image: "NA",
   background_image: "NA",
   draft: false,
@@ -374,6 +377,7 @@ https://www.fesliyanstudios.com/royalty-free-sound-effects-download/cow-264
     "food"
   ],
   castboxEmbedUrl: '<iframe src="https://castbox.fm/app/castbox/player/id2852897/id267116456?v=8.22.9&autoplay=0&hide_list=1" frameborder="0" width="100%" height="220"></iframe>',
+  castboxLink: 'https://castbox.fm/x/1FkwS',
   featured_image: "NA",
   background_image: "NA",
   draft: false,
@@ -473,6 +477,7 @@ Portia from Barcelona Spain
     "career",
   ],
   castboxEmbedUrl: '<iframe src="https://castbox.fm/app/castbox/player/id2852897/id267116840?v=8.22.9&autoplay=0&hide_list=1" frameborder="0" width="100%" height="220"></iframe>',
+  castboxLink: 'https://castbox.fm/x/1Fkj2',
   featured_image: "NA",
   background_image: "NA",
   draft: false,

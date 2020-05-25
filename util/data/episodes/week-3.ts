@@ -60,6 +60,7 @@ export const ep11: EpisodeData =
 
   ],
   castboxEmbedUrl: '',
+  castboxLink: '',
   featured_image: "NA",
   background_image: "NA",
   draft: false,
@@ -137,6 +138,7 @@ export const ep12: EpisodeData =
 
   ],
   castboxEmbedUrl: '',
+  castboxLink: '',
   featured_image: "NA",
   background_image: "NA",
   draft: false,
@@ -214,6 +216,7 @@ Let's talk cannabis
 
   ],
   castboxEmbedUrl: '',
+  castboxLink: '',
   featured_image: "NA",
   background_image: "NA",
   draft: false,
@@ -291,6 +294,7 @@ export const ep14: EpisodeData =
 
   ],
   castboxEmbedUrl: '',
+  castboxLink: '',
   featured_image: "NA",
   background_image: "NA",
   draft: false,
@@ -368,6 +372,7 @@ export const ep15: EpisodeData =
 
   ],
   castboxEmbedUrl: '',
+  castboxLink: '',
   featured_image: "NA",
   background_image: "NA",
   draft: false,

@@ -63,6 +63,7 @@ Let's talk about Tekken.
 
   ],
   castboxEmbedUrl: '',
+  castboxLink: '',
   featured_image: "NA",
   background_image: "NA",
   draft: false,
@@ -140,6 +141,7 @@ export const ep17: EpisodeData =
 
   ],
   castboxEmbedUrl: '',
+  castboxLink: '',
   featured_image: "NA",
   background_image: "NA",
   draft: false,
@@ -217,6 +219,7 @@ export const ep18: EpisodeData =
 
   ],
   castboxEmbedUrl: '',
+  castboxLink: '',
   featured_image: "NA",
   background_image: "NA",
   draft: false,
@@ -295,6 +298,7 @@ export const ep19: EpisodeData =
 
   ],
   castboxEmbedUrl: '',
+  castboxLink: '',
   featured_image: "NA",
   background_image: "NA",
   draft: false,
@@ -372,6 +376,7 @@ export const ep20: EpisodeData =
 
   ],
   castboxEmbedUrl: '',
+  castboxLink: '',
   featured_image: "NA",
   background_image: "NA",
   draft: false,
