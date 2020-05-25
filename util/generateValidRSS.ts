@@ -33,7 +33,7 @@ const modifyRSS = (text: string): string => {
     .replace(/<p>/g, '')
     .replace(/<\/p>/g, '')
 
-  let feed = convert(newText, { format: "object" });
+  let feed: any = convert(newText, { format: "object" });
   // console.log(feed.rss.channel.item);
   // console.log(feed.rss.channel);
 

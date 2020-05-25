@@ -10,16 +10,29 @@
 
 https://blog.michaelbrooks.dev/automatically-posting-new-blog-posts-to-your-facebook-and-twitter-pages-from-your-rss-feed/
 
+## Like to Automate
++ Some sound effect noise levels (I can probably do this in the Jingle thing.)
+
 ## Can't Automate
 
-+ Uploading to
++ Editing
++ Uploading files to Castbox.
 
 ## Automation
 
-+ Schedule podcast to publish at 
++ Schedule podcast to publish at
 + Manually update website + update podcast feed at 7:10am each day.
-+ Push podcast to Facebook Monday - Friday.
-+ Push podcast to Twitter Monday - Friday.
++ Post to Facebook ()
++ Post to Twitter ()
++ Post to Reddit ()
++ Create YouTube videos from audio.
+
+Automate.io (250 actions per month) 5 bots (only main, like facebook, twitter, discord)
+quickwork.co (Almost nothing, cannot even do RSS Feed) (1,000)
+integromat (Similar to Zapier) (1000) (100mb limit)
+zapier (100 actions) (does everything I want it to)
+
+
 
 thewritersdailypodcast@gmail.com
 
