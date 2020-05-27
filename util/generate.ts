@@ -16,9 +16,9 @@ const episodesNotesIndexFile = {
   "draft": false
 }
 
-const getFilePath = (episodeData: EpisodeData, type: string): string => {
+const getFilePath = (episodeData: EpisodeData, contentDirectory: string, type: string): string => {
   const slug: string | number = type === 'epnotes' ? episodeData.episode_number : episodeData.slug;
-  return path.join(__dirname, '..', `/content/${type}/${slug}.md`);
+  return path.join(contentDirectory, `${type}/${slug}.md`);
 };
 
 const getHeaderContents = (episodeData: EpisodeData, type: string): string => {
@@ -45,38 +45,38 @@ const breakUpContent = (content: string): string => {
   return splitArray.map((val: string, index: number) => `${index+1}${val}`).join('\n');
 }
 
-export const generateHugoMDFiles = async (episodeDataList: EpisodeData[]): Promise<void> => {
+const generateHugoMDFiles = async (episodeDataList: EpisodeData[], contentDirectory: string): Promise<void> => {
   try {
     const todayDate = new Date();
 
-    fse.removeSync(path.join(__dirname, '..', 'content', 'episodes'));
+    fse.removeSync(path.join(contentDirectory, 'episodes'));
     console.log('removed /content/episodes folder.');
-    fse.removeSync(path.join(__dirname, '..', 'content', 'epnotes'));
+    fse.removeSync(path.join(contentDirectory, 'epnotes'));
     console.log('removed /content/episodes notes folder.');
 
     for (const episodeData of episodeDataList) {
-      const episodePublicDate = new Date(episodeData.publishDate);
+      // const episodePublicDate = new Date(episodeData.publishDate);
       // if (episodePublicDate < todayDate) {
         fse.outputFileSync(
-          getFilePath(episodeData, "episodes"),
-          `${getHeaderContents(episodeData, "episodes")}\n\n${breakUpContent(episodeData.content)}`
+          getFilePath(episodeData, contentDirectory, 'episodes'),
+          `${getHeaderContents(episodeData, 'episodes')}\n\n${breakUpContent(episodeData.content)}`
         );
       // }
 
       fse.outputFileSync(
-        getFilePath(episodeData, "epnotes"),
-        `${getHeaderContents(episodeData, "epnotes")}\n${getBelowHeaderContents(episodeData)}`
+        getFilePath(episodeData, contentDirectory, 'epnotes'),
+        `${getHeaderContents(episodeData, 'epnotes')}\n${getBelowHeaderContents(episodeData)}`
       );
     }
 
     // create episode + episode_notes _index.md
     fse.outputFileSync(
-      path.join(__dirname, '..', 'content/episodes/_index.md'),
+      path.join(contentDirectory, 'episodes', '_index.md'),
       JSON.stringify(episodeIndexFile)
     );
 
     fse.outputFileSync(
-      path.join(__dirname, '..', 'content/epnotes/_index.md'),
+      path.join(contentDirectory, 'epnotes', '_index.md'),
       JSON.stringify(episodesNotesIndexFile)
     );
 
@@ -85,3 +85,5 @@ export const generateHugoMDFiles = async (episodeDataList: EpisodeData[]): Promi
     throw new Error(`generateHugoMDFiles - ${error}`);
   }
 };
+
+export default generateHugoMDFiles;
