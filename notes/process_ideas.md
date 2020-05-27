@@ -43,6 +43,28 @@ quickwork.co (Almost nothing, cannot even do RSS Feed) (1,000)
 integromat (Similar to Zapier) (1000) (100mb limit)
 zapier (100 actions) (does everything I want it to)
 
+https://www.googleapis.com/youtube/v3/videos
+
+'{
+  "snippet": {
+    "categoryId": "22",
+    "description": "{{4.rssFields.description}}.",
+    "title": "{{4.rssFields.title}}.",
+    "tags": "thewritersdaily,podcast"
+  },
+  "status": {
+    "privacyStatus": "public",
+    "publishAt: "{{4.rssFields.pubdate}}"
+  }
+}'
+
+https://developers.google.com/youtube/v3/docs/videos/insert
+
+https://github.com/zekro-archive/youtube-upload
+// so this will be the smart thing to do. And yeah, I won't need to use integromat. It really doesn't make any/much sense, since I'm uploading my own shit, ya'll know what I'm sayin' 
+
+// maybe I even do it
+
 // maybe gify beforehand. Maybe I need the Giphy API in order to populate each episode with a gif? Sounds like it would be an awesome thing to do.
 Giphy -> Instagram ->
 

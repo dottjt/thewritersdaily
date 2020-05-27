@@ -14,7 +14,7 @@ export const ep1: EpisodeData =
   date: "2020-05-25T07:00:00+10:00",
   publishDate: "2020-05-25T07:00:00+10:00",
   description: `\
-
+  
 `,
   content: `\
 1. The Question: What do you want to achieve today? 2. The Topic: The very first show 3. The Viewermail: The guy has a foot fetish. Email: thewritersdailypodcast@gmail.com
