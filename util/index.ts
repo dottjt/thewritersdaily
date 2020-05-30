@@ -2,10 +2,11 @@ import { config } from 'dotenv';
 config();
 
 import path from 'path';
-import { data, util } from '@dottjt/datareade';
+import { data, media, website } from '@dottjt/datareade';
 
 const main = async () => {
-  const { theWritersDaily: { generateHugoMDFiles, generateModifiedRSS } } = util;
+  const { generateHugoMDFilesTWD } = website;
+  const { generateModifiedRSS } = media
   const { episodesTWD } = data;
 
   // const TWD_RSS_URL = "http://rss.castbox.fm/everest/aab82e46f0cd4791b1c8ddc19d5158c3.xml"; // (this is the NFD one.)
@@ -17,7 +18,7 @@ const main = async () => {
 
   const PODCAST_WEBSITE = 'https://thewritersdaily.juliusreade.com/';
 
-  await generateHugoMDFiles({
+  await generateHugoMDFilesTWD({
     episodes: episodesTWD,
     contentDirectory
   });
