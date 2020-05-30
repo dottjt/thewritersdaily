@@ -15,6 +15,8 @@ const main = async () => {
 
   const contentDirectory = path.join(__dirname, '../', 'content');
 
+  const PODCAST_WEBSITE = 'https://thewritersdaily.juliusreade.com/';
+
   await generateHugoMDFiles({
     episodes: episodesTWD,
     contentDirectory
@@ -25,7 +27,8 @@ const main = async () => {
     newRSSURL: NEW_RSS_URL,
     outputRSSFile: OUTPUT_RSS_FILE,
     authorRSSField: '<author>thewritersdailypodcast@gmail.com (Julius Reade)</author>',
-    episodeList: episodesTWD
+    episodeList: episodesTWD,
+    podcastWebsite: PODCAST_WEBSITE
   });
 };
 

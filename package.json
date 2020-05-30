@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/dottjt/juliusv6#readme",
   "dependencies": {
-    "@dottjt/datareade": "^1.0.22",
+    "@dottjt/datareade": "^1.0.24",
     "@types/fs-extra": "^8.1.0",
     "@types/node-fetch": "^2.5.7",
     "dotenv": "^8.2.0",
