@@ -2,13 +2,15 @@
   "name": "the-writers-daily",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./util/index.ts",
   "type": "module",
   "scripts": {
     "tsc": "tsc",
     "update_datareade": "npm update @dottjt/datareade",
     "dev": "npm run update_datareade && ts-node-dev --respawn --transpileOnly ./util/index.ts",
-    "prod": "npm run update_datareade && ts-node ./util/index.ts"
+    "prod": "npm run update_datareade && ts-node ./util/index.ts",
+    "videoDev": "npm run update_datareade && ts-node-dev --respawn --transpileOnly ./util/generateVideo.ts",
+    "videoProd": "npm run update_datareade && ts-node ./util/generateVideo.ts"
   },
   "repository": {
     "type": "git",
@@ -22,12 +24,11 @@
   },
   "homepage": "https://github.com/dottjt/juliusv6#readme",
   "dependencies": {
-    "@dottjt/datareade": "^1.0.34",
+    "@dottjt/datareade": "^1.0.35",
     "dotenv": "^8.2.0",
-    "fs-extra": "^9.0.0",
     "husky": "^4.2.5",
-    "ts-node-dev": "^1.0.0-pre.44",
     "ts-node": "^8.10.1",
+    "ts-node-dev": "^1.0.0-pre.44",
     "typescript": "^3.8.3"
   },
   "//husky": {
