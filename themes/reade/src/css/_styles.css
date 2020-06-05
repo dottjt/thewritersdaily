@@ -117,7 +117,8 @@ body {
 .content {
   max-width: 600px;
   width: 100%;
-  min-height: 500px;
+  min-height: 350px;
+  margin-bottom: 12rem;
 }
 
 .section__twd__bottom {
