@@ -7,8 +7,8 @@ const main = async () => {
   const fakeYouTubeAPIFile = path.join(__dirname, '..', 'fake-youtube-api.txt');
 
   const rootFolder = path.join(__dirname, '..');
-  const audioFolder = path.join(__dirname, 'thewritersdailypodcast', 'final-audio');
-  const videoFolder = path.join(__dirname, 'thewritersdailypodcast', 'final-video');
+  const audioFolder = path.join(__dirname, '..', '..', 'thewritersdaily_podcast', 'final-audio');
+  const videoFolder = path.join(__dirname, '..', '..', 'thewritersdaily_podcast', 'final-video');
   const backgroundImageFolder = path.join(__dirname, '..', 'background-image');
   const podcastLogoFile = path.join(__dirname, '..', 'assets', 'logo_400.png');
   const videoFont = '/System/Library/Fonts/Avenir.ttc';
