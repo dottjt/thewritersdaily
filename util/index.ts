@@ -17,7 +17,7 @@ const main = async () => {
 
   const contentDirectory = path.join(__dirname, '../', 'content');
 
-  await generateHugoMDFilesPodcast({
+  await gs({
     episodes: episodesTWD,
     contentDirectory,
     email: 'thewritersdailypodcast@gmail.com'
