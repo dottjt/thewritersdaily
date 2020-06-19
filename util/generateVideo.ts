@@ -1,5 +1,6 @@
 import path from 'path';
-import { data, media } from '@dottjt/datareade';
+import { data } from '@dottjt/datareade';
+import { media, upload } from '@dottjt/mediareade';
 
 const main = async () => {
   // const TWD_CHANNEL_ID = 'UCHnPAVZax7_QMufnSF8Pc9w';
@@ -25,7 +26,7 @@ const main = async () => {
     episodes: data.episodesTWD,
   });
 
-  media.uploadYouTube({
+  upload.uploadYouTube({
     videoFolder,
     credentialsFile,
     fakeYouTubeAPIFile,

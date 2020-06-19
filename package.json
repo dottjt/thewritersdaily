@@ -6,11 +6,11 @@
   "type": "module",
   "scripts": {
     "tsc": "tsc",
-    "update_datareade": "npm update @dottjt/datareade",
-    "dev": "npm run update_datareade && ts-node-dev --respawn --transpileOnly ./util/index.ts",
-    "prod": "npm run update_datareade && ts-node ./util/index.ts",
-    "videoDev": "npm run update_datareade && ts-node-dev --respawn --transpileOnly ./util/generateVideo.ts",
-    "videoProd": "npm run update_datareade && ts-node ./util/generateVideo.ts"
+    "update": "npm update @dottjt/datareade @dottjt/mediareade",
+    "dev": "npm run update && ts-node-dev --respawn --transpileOnly ./util/index.ts",
+    "prod": "npm run update && ts-node ./util/index.ts",
+    "videoDev": "npm run update && ts-node-dev --respawn --transpileOnly ./util/generateVideo.ts",
+    "videoProd": "npm run update && ts-node ./util/generateVideo.ts"
   },
   "repository": {
     "type": "git",
@@ -24,7 +24,8 @@
   },
   "homepage": "https://github.com/dottjt/juliusv6#readme",
   "dependencies": {
-    "@dottjt/datareade": "^1.0.54",
+    "@dottjt/datareade": "^1.1.14",
+    "@dottjt/mediareade": "^1.1.7",
     "dotenv": "^8.2.0",
     "husky": "^4.2.5",
     "ts-node": "^8.10.1",
