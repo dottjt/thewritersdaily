@@ -24,8 +24,8 @@
   },
   "homepage": "https://github.com/dottjt/juliusv6#readme",
   "dependencies": {
-    "@dottjt/datareade": "^1.1.14",
-    "@dottjt/mediareade": "^1.1.7",
+    "@dottjt/datareade": "^1.1.15",
+    "@dottjt/mediareade": "^1.1.8",
     "dotenv": "^8.2.0",
     "husky": "^4.2.5",
     "ts-node": "^8.10.1",
