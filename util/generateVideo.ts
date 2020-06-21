@@ -14,8 +14,6 @@ const main = async () => {
   const podcastLogoFile = path.join(__dirname, '..', 'assets', 'logo_400.png');
   const videoFont = '/System/Library/Fonts/Avenir.ttc';
 
-  // console.log(videoFolder);
-
   await media.generateVideo({
     rootFolder,
     audioFolder,
@@ -32,6 +30,8 @@ const main = async () => {
     fakeYouTubeAPIFile,
     episodes: data.episodesTWD
   });
+
+  process.exit();
 };
 
 main();
