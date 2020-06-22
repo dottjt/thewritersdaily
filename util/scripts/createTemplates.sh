@@ -1,6 +1,7 @@
 #!/bin/sh
 
 # OUTPUT_FOLDER='../thewritersdaily_podcast/episodes-edited'
+# OUTPUT_FOLDER='../theneverfapdeluxedaily_podcast/episodes-edited'
 OUTPUT_FOLDER='./util/test_template_output'
 
 EPNUMPREFIX="0"
