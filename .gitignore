@@ -1,4 +1,5 @@
 themes/reade/static/thewritersdaily_podcast.xml
+./util/test_template_output/*
 content/episodes/*
 content/episodes_notes/*
 node_modules
