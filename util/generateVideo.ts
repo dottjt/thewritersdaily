@@ -30,8 +30,6 @@ const main = async () => {
     fakeYouTubeAPIFile,
     episodes: data.episodesTWD
   });
-
-  process.exit();
 };
 
 main();
