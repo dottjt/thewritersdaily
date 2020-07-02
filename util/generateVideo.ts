@@ -25,6 +25,18 @@ const main = async () => {
   });
 
   upload.uploadYouTube({
+    showTitle: 'The NeverFap Deluxe Daily',
+    showDescription: (
+`Available on Spotify, iTunes, Castbox, Google Podcasts et al.
+
+Website: https://thewritersdaily.juliusreade.com\n
+YouTube: https://youtube.com/channel/UCHiMNZ86_zwW1RebKDcZEoQ\n
+Twitter: https://twitter.com/thewritersdaily\n
+Facebook: https://facebook.com/thewritersdaily\n
+Discord: https://discord.gg/7QzqdP7\n
+Instagram: https://instagram.com/thewritersdaily\n
+`
+    ), // TODO
     videoFolder,
     credentialsFile,
     fakeYouTubeAPIFile,
@@ -33,7 +45,4 @@ const main = async () => {
 };
 
 main();
-
-
-
 
