@@ -14,34 +14,34 @@ const main = async () => {
   const podcastLogoFile = path.join(__dirname, '..', 'assets', 'logo_400.png');
   const videoFont = '/System/Library/Fonts/Avenir.ttc';
 
-  await media.generateVideo({
-    rootFolder,
-    audioFolder,
+  // await media.generateVideo({
+  //   rootFolder,
+  //   audioFolder,
+  //   videoFolder,
+  //   backgroundImageFolder,
+  //   videoFont,
+  //   podcastLogoFile,
+  //   episodes: data.episodesTWD,
+  // });
+
+  upload.uploadYouTube({
+    showTitle: "The Writer's Daily",
+    showDescription: (
+`Available on Spotify, iTunes, Castbox, Google Podcasts et al.
+
+Website: https://thewritersdaily.juliusreade.com\n
+YouTube: https://youtube.com/channel/UCHiMNZ86_zwW1RebKDcZEoQ\n
+Twitter: https://twitter.com/thewritersdaily\n
+Facebook: https://facebook.com/thewritersdaily\n
+Discord: https://discord.gg/7QzqdP7\n
+Instagram: https://instagram.com/thewritersdaily\n
+`
+    ), // TODO
     videoFolder,
-    backgroundImageFolder,
-    videoFont,
-    podcastLogoFile,
-    episodes: data.episodesTWD,
+    credentialsFile,
+    fakeYouTubeAPIFile,
+    episodes: data.episodesTWD
   });
-
-//   upload.uploadYouTube({
-//     showTitle: 'The NeverFap Deluxe Daily',
-//     showDescription: (
-// `Available on Spotify, iTunes, Castbox, Google Podcasts et al.
-
-// Website: https://thewritersdaily.juliusreade.com\n
-// YouTube: https://youtube.com/channel/UCHiMNZ86_zwW1RebKDcZEoQ\n
-// Twitter: https://twitter.com/thewritersdaily\n
-// Facebook: https://facebook.com/thewritersdaily\n
-// Discord: https://discord.gg/7QzqdP7\n
-// Instagram: https://instagram.com/thewritersdaily\n
-// `
-//     ), // TODO
-//     videoFolder,
-//     credentialsFile,
-//     fakeYouTubeAPIFile,
-//     episodes: data.episodesTWD
-//   });
 };
 
 main();
