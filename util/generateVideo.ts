@@ -14,15 +14,15 @@ const main = async () => {
   const podcastLogoFile = path.join(__dirname, '..', 'assets', 'logo_400.png');
   const videoFont = '/System/Library/Fonts/Avenir.ttc';
 
-  // await media.generateVideo({
-  //   rootFolder,
-  //   audioFolder,
-  //   videoFolder,
-  //   backgroundImageFolder,
-  //   videoFont,
-  //   podcastLogoFile,
-  //   episodes: data.episodesTWD,
-  // });
+  await media.generateVideo({
+    rootFolder,
+    audioFolder,
+    videoFolder,
+    backgroundImageFolder,
+    videoFont,
+    podcastLogoFile,
+    episodes: data.episodesTWD,
+  });
 
 //   upload.uploadYouTube({
 //     showTitle: "The Writer's Daily",
