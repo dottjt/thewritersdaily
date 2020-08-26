@@ -32,7 +32,7 @@
   },
   "homepage": "https://github.com/dottjt/juliusv6#readme",
   "dependencies": {
-    "@dottjt/datareade": "^1.1.69",
+    "@dottjt/datareade": "^1.1.70",
     "@dottjt/mediareade": "^1.1.32",
     "dotenv": "^8.2.0",
     "husky": "^4.2.5",
