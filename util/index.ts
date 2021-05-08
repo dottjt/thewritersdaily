@@ -27,7 +27,7 @@ const main = async () => {
     inputRSSURL: TWD_RSS_URL,
     newRSSURL: NEW_RSS_URL,
     outputRSSFile: OUTPUT_RSS_FILE,
-    authorRSSField: '<author>thewritersdailypodcast@gmail.com (Julius Reade)</author>',
+    authorRSSField: '<author>thewritersdailypodcast@gmail.com (The Writer\'s Daily)</author>',
     episodeList: episodesTWD,
     podcastWebsite: PODCAST_WEBSITE
   });
